@@ -36,7 +36,7 @@ Este Código de Conduta se aplica dentro de todos os espaços da comunidade e ta
 
 ## Aplicação
 
-Instâncias de comportamento abusivo, de assédio ou de outra forma inaceitável podem ser comunicados aos líderes da equipe responsáveis pela fiscalização em tiag28973@gmail.com ou e-mail de qualquer um dos líderes. 
+Instâncias de comportamento abusivo, de assédio ou de outra forma inaceitável podem ser comunicados aos líderes da equipe responsáveis pela fiscalização em tiago28973@gmail.com ou e-mail de qualquer um dos líderes. 
 
 Todas as reclamações serão analisadas e investigadas prontamente e de forma justa.
 
