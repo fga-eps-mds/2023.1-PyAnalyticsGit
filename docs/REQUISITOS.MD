@@ -20,3 +20,14 @@ dados no relatório.
 clara e intuitiva.
 
 ## Requisitos Não Funcionais
+
+**Segurança**: A biblioteca deve ser segura e garantir a privacidade dos dados do repositório.
+
+**Acessibilidade**: A biblioteca deve ser fácil de instalar e usar, sem exigir configurações ou conhecimento avançado. Deve ser capaz de utilizar em diferentes sistemas
+operacionais
+
+**Eficiência**: A biblioteca deve ter um bom desempenho, gerando relatórios rapidamente. Os relatórios devem ser gerados em tempo hábil para que o desenvolvedor possa acompanhar as alterações sem atrasos ou interrupções significativas no fluxo de trabalho.
+
+**Precisão**: A biblioteca deve ser confiável e ter baixo índice de erros e falhas.
+
+**Volume**: A biblioteca deve ser capaz de lidar com grandes volumes de dados sem sobrecarregar e capaz de lidar com repositórios de grande porte.
