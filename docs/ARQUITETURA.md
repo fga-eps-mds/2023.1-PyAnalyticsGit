@@ -43,7 +43,6 @@ outros tipos de visualizações. É uma das bibliotecas de visualização de dad
 ##
 ## PyPI
 O PyPI (Python Package Index) é o repositório oficial de pacotes da linguagem de programação python. Ele é um grande arquivo de pacotes python que permite aos desenvolvedores python compartilhar e instalar facilmente pacotes de software em seus projetos.
-
 Os pacotes python podem ser enviados para o PyPI para serem compartilhados com a comunidade python.
 
 
