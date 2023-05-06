@@ -1,7 +1,7 @@
 """
     Teste de interação da Biblioteca por meio da Biblioteca GitPython.
     Essa interação é feita utilizando os comandos da biblioteca.
-    Primeiros testes da implementaç
+    Primeiros testes da implementação/testando
 """
 from git import Repo, Commit
 
