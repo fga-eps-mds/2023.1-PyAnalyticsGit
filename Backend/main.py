@@ -66,10 +66,10 @@ def commit():
             arq.write('----------------------------------------------------------------------------------\n')
             arq.write(f'- impressão do hash:{commit.hexsha}\n')
             arq.write(f'- Mensagem do Commit: {commit.message}\n')
-            arq.write(f'{commit.summary} by {commit.author.name} by ({commit.author.email})\n')
-            arq.write(str(commit.authored_datetime))
+            arq.write(f'- {commit.summary} by {commit.author.name} by ({commit.author.email})\n')
+            arq.write(f'- {commit.authored_datetime}')
             arq.write('\n')
-            arq.write(f'Número do Commit: {commit.count()}\n')
+            arq.write(f'- Número do Commit: {commit.count()}\n')
             arq.write('\n')
             #contador_commit = contador_commit + 1
             pass
