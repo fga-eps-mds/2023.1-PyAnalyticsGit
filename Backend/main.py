@@ -64,8 +64,8 @@ def commit():
         arq.write('**Informação dos commits:**\n')    
         for commit in commits:
             arq.write('----------------------------------------------------------------------------------\n')
-            arq.write(f'-impressão do hash:{commit.hexsha}\n')
-            arq.write(f'-Mensagem do Commit: {commit.message}\n')
+            arq.write(f'- impressão do hash:{commit.hexsha}\n')
+            arq.write(f'- Mensagem do Commit: {commit.message}\n')
             arq.write(f'{commit.summary} by {commit.author.name} by ({commit.author.email})\n')
             arq.write(str(commit.authored_datetime))
             arq.write('\n')
