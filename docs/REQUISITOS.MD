@@ -1,6 +1,6 @@
 ## Requisitos
 
-O objetivo desse documento é apresentar os requisitos funcionais e não funcionais do GitAnalisys, uma biblioteca em Python que gera relatórios automatizados em Markdown de
+O objetivo desse documento é apresentar os requisitos funcionais e não funcionais da PyAnalyticsGit, uma biblioteca em Python que gera relatórios automatizados em Markdown de
 repositórios do GitHub.
 
 ## Requisitos Funcionais
