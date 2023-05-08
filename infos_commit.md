@@ -2,11 +2,43 @@
 
 **Informação dos commits:**
 ----------------------------------------------------------------------------------
+- impressão do hash: b3e65943350a58647bb9895afee5f6add9985432
+- Mensagem do Commit: Implementação inicial do relatório com histórico dos commits e gráfico.
+
+- Autor: JeffersonSenaa | e-mail: (jeffersonsena12144@gmail.com)
+- 2023-05-08 13:38:43-03:00
+- Número do Commit: 54
+
+----------------------------------------------------------------------------------
+- impressão do hash: 6a1d712d6c5f12cf952cf704bff82723868489a5
+- Mensagem do Commit: Adicionando função para salvar grafico no relatorio markdown
+
+Utilizando o módulo nativo subprocess o grafico é adicionado ao arquivo markdown.
+- Autor: Jefferson Sena | e-mail: (73854228+JeffersonSenaa@users.noreply.github.com)
+- 2023-05-08 13:16:37-03:00
+- Número do Commit: 52
+
+----------------------------------------------------------------------------------
 - impressão do hash: f3110aea8a2605b1a4c4d1af072c4b9629fbd7ca
 - Mensagem do Commit: Adicionando comando para salvar grafico no arquivo md.
 
 - Autor: JeffersonSenaa | e-mail: (jeffersonsena12144@gmail.com)
 - 2023-05-08 13:09:17-03:00
+- Número do Commit: 50
+
+----------------------------------------------------------------------------------
+- impressão do hash: 2f9a49e414af0e555cd2a5354dafd68eb7e30ed4
+- Mensagem do Commit: Create Escopo.md
+- Autor: Gabriel | e-mail: (105024303+gabrie1barbosa@users.noreply.github.com)
+- 2023-05-08 11:24:54-03:00
+- Número do Commit: 51
+
+----------------------------------------------------------------------------------
+- impressão do hash: d1a94d739eee514c8e845910b69b08a3f5a3b47d
+- Mensagem do Commit: Atualização da função commit
+
+- Autor: Tiago1604 | e-mail: (202028973@aluno.unb.br)
+- 2023-05-08 10:24:22-03:00
 - Número do Commit: 50
 
 ----------------------------------------------------------------------------------
@@ -159,33 +191,4 @@
 - Autor: JeffersonSenaa | e-mail: (jeffersonsena12144@gmail.com)
 - 2023-05-03 22:08:39-03:00
 - Número do Commit: 27
-
-----------------------------------------------------------------------------------
-- impressão do hash: 2499dc72e20c74140eb3c55d94d040a7257ee1f3
-- Mensagem do Commit: Update main.py
-- Autor: Jefferson Sena | e-mail: (73854228+JeffersonSenaa@users.noreply.github.com)
-- 2023-05-03 22:01:59-03:00
-- Número do Commit: 29
-
-----------------------------------------------------------------------------------
-- impressão do hash: 9f3ff2530415c9a2c31f940fba7a3ee7363d1f07
-- Mensagem do Commit: Inicio da implementação da biblioteca e gitPython.
-- Autor: Tiago1604 | e-mail: (98188815+Tiago1604@users.noreply.github.com)
-- 2023-05-03 21:57:12-03:00
-- Número do Commit: 28
-
-----------------------------------------------------------------------------------
-- impressão do hash: 91efaa965a361bfa92ff7b25839ef9f9d2f2bacb
-- Mensagem do Commit: Rename Index.html to index.html
-- Autor: Tiago1604 | e-mail: (98188815+Tiago1604@users.noreply.github.com)
-- 2023-05-03 20:05:23-03:00
-- Número do Commit: 27
-
-----------------------------------------------------------------------------------
-- impressão do hash: ba9c638aa47558e5448bf5da23f462a026c32a68
-- Mensagem do Commit: Criação do Git Pages do projeto em HTML e CSS.
-
-- Autor: JeffersonSenaa | e-mail: (jeffersonsena12144@gmail.com)
-- 2023-05-03 19:58:50-03:00
-- Número do Commit: 26
 
