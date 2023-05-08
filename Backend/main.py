@@ -6,7 +6,7 @@
 from git import Repo, Commit
 import matplotlib.pyplot as plt
 
-#COMMITS_TO_PRINT = 5
+#COMMITS_TO_PRINT = 20
 contador_commit = 0
 
 #Variavel que guarda o caminho do repositorio(Trocar para o caminho do seu PC)
@@ -52,11 +52,13 @@ def grafico():
     plt.show()
 
 
-def commit():
+def commit(nome_arquivo, qtd_commits):
     global contador_commit
+    global commits
+    commits = commits[:qtd_commits]
     if not repo.bare:
         print(f'O repositório {repo_path} foi carregado com sucesso!')
-        arq = open('relatorio.md','w+')
+        arq = open(f'{nome_arquivo}.md','w+')
         for count in commits:
             contador_commit = contador_commit + 1
         arq.write(f'**Número Total de commits: {contador_commit}**\n')
@@ -64,9 +66,9 @@ def commit():
         arq.write('**Informação dos commits:**\n')    
         for commit in commits:
             arq.write('----------------------------------------------------------------------------------\n')
-            arq.write(f'- impressão do hash:{commit.hexsha}\n')
+            arq.write(f'- impressão do hash: {commit.hexsha}\n')
             arq.write(f'- Mensagem do Commit: {commit.message}\n')
-            arq.write(f'- {commit.summary} by {commit.author.name} by ({commit.author.email})\n')
+            arq.write(f'- Autor: {commit.author.name} | e-mail: ({commit.author.email})\n')
             arq.write(f'- {commit.authored_datetime}')
             arq.write('\n')
             arq.write(f'- Número do Commit: {commit.count()}\n')
@@ -79,4 +81,4 @@ def commit():
 
 
 grafico()
-commit()
+commit('infos_commit',25)
