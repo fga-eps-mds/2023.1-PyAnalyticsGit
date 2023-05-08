@@ -1,56 +1,45 @@
 """
-    Teste de interação da Biblioteca por meio da Biblioteca GitPython.
-    Essa interação é feita utilizando os comandos da biblioteca.
-    Primeiros testes da implementação/testando
+    Teste de criação do relatório markdown a partir do algoritmo.
+    Implementação inicial de teste dos commits e gráfico que analisa 
+    a quantidade de commits por integrante.
 """
 from git import Repo, Commit
 import matplotlib.pyplot as plt
 import subprocess
 
-#COMMITS_TO_PRINT = 20
 contador_commit = 0
 
 #Variavel que guarda o caminho do repositorio(Trocar para o caminho do seu PC)
 repo_path = "/home/jefferson/UnB/Mds/Projeto_Mds/2023.1-Biblioteca-Relatorios-Git" 
 
-#Variavel que chama o repositorio
 repo = Repo(repo_path) 
 
-#commits = list(repo.iter_commits())
-commits = list(repo.iter_commits('main'))#[:COMMITS_TO_PRINT]
+commits = list(repo.iter_commits('main'))
 
 def grafico():
-    name = list()
-    usuario = 0
-    usuario1 = 0
-    usuario2 = 0
-    usuario3 = 0
-    usuario4 = 0
-    usuario5 = 0
+# Dicionário para armazenar o número de commits por usuário
+    commits_por_usuario = {
+        'PedroHhenriq': 0,
+        'Gabriel': 0,
+        'Tiago1604': 0,
+        'JeffersonSenaa': 0,
+        'rodfon3301': 0,
+        'mateus9Levy': 0
+    }
+
+    # Contador para o número de commits por integrante
     for commit in commits:
         name = commit.author.name
-        if name == 'PedroHhenriq':
-            usuario += 1
-        elif name == 'Gabriel':
-            usuario1 += 1
-        elif name == 'Tiago1604':
-            usuario2 += 1
-        elif name == 'JeffersonSenaa':
-            usuario3 += 1
-        elif name == 'rodfon3301':
-            usuario4 += 1
-        elif name == 'mateus9Levy':
-            usuario5 += 1
+        if name in commits_por_usuario:
+            commits_por_usuario[name] += 1
 
-    y = [usuario, usuario1, usuario2, usuario3, usuario4, usuario5]
-    x = ['Pedro', 'Gabriel', 'Tiago', 'Jefferson', 'Rodrigo', 'Mateus']
+    usuarios = list(commits_por_usuario.keys())
+    num_commits = list(commits_por_usuario.values())
 
-    plt.bar(x,y)
-    plt.title("Média de commit's por integrante")
+    plt.bar(usuarios, num_commits, color='green')
+    plt.title("Média de commits por integrante")
     plt.xlabel("Integrantes")
-    plt.ylabel("Commit's")
-    plt.bar(x,y, color='green')
-    #plt.show()
+    plt.ylabel("Commits")
     plt.savefig('Backend/grafico_commits.png')
 
     code_md = "![Gráfico de Commits](grafico_commits.png)" 
