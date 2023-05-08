@@ -1,11 +1,11 @@
-# Documentação da Arquiteutra [GitAnalytics]
+# Documentação da Arquiteutra
 
-## O que é o GitAnalytics?
+
 ## Descrição do Produto
 
 
 O GitAnalytics é um projeto em Python criado por estudantes de Engenharia de Software, sendo uma biblioteca capaz de gerar relatórios de repositórios do Github.
-O GitAnalytics é um projeto em Python criado por estudantes de Engenharia de Software, sendo uma biblioteca capaz de gerar relatórios a partir dos dados de repositórios do Github.
+repositórios do Github. A biblioteca deverar ser capaz de interagir com o git, analisar o dessempenho do projeto, gerar relatórios automatizados e conter informações detalhadas do repositorio. 
 
 ## Arquitetura
 ### Apresentação da Arquitetura
@@ -18,7 +18,7 @@ Ela fornece um mapa para o desenvolvimento do projeto, destacando as partes que 
 ## - Python  
  Python é uma linguagem de programação de alto nível, fácil de aprender e com uma ampla gama de aplicações. 
  O python é bastante utilizado em data science, machine learning, desenvolvimento web, desenvolvimento de aplicativos, automação de scripts e etc.
- É amplamente utilizada em diferentes áreas. A sintaxe de Python é clara e fácil de ler, o que a torna uma linguagem popular entre iniciantes e experientes programadores. 
+ A sintaxe de Python é clara e fácil de ler, o que a torna uma linguagem popular entre iniciantes e experientes programadores. 
  Além disso, possui uma grande biblioteca padrão e uma comunidade ativa de desenvolvedores, o que permite a criação rápida de soluções para diferentes problemas.
 ##
 
@@ -32,6 +32,7 @@ O GitPython é uma biblioteca poderosa e útil para desenvolvedores que trabalha
 ## API do Github
 é uma interface de programação de aplicativos (API) fornecida pelo GitHub, que permite que desenvolvedores criem aplicativos e serviços que interajam com o GitHub de maneira programática. 
 A API do GitHub fornece acesso a todas as funcionalidades do GitHub, incluindo repositórios, issues, pull requests, comentários, colaboradores e muito mais.
+é uma ferramenta poderosa e flexível que pode ajudar os desenvolvedores a automatizar tarefas, integrar o GitHub em seus fluxos de trabalho de desenvolvimento e criar aplicativos personalizados que se integram ao GitHub.
 ##
 ## Pandas
 Pandas é uma biblioteca python de código aberto que fornece estruturas de dados e ferramentas para análise de dados em python.
@@ -44,5 +45,6 @@ outros tipos de visualizações. É uma das bibliotecas de visualização de dad
 ## PyPI
 O PyPI (Python Package Index) é o repositório oficial de pacotes da linguagem de programação python. Ele é um grande arquivo de pacotes python que permite aos desenvolvedores python compartilhar e instalar facilmente pacotes de software em seus projetos.
 Os pacotes python podem ser enviados para o PyPI para serem compartilhados com a comunidade python.
+O PyPI é um recurso valioso para a comunidade Python, pois torna mais fácil e eficiente o compartilhamento e a instalação de pacotes de software em projetos Python.
 
 
