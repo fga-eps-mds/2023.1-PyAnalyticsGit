@@ -49,7 +49,12 @@ def grafico():
     plt.xlabel("Integrantes")
     plt.ylabel("Commit's")
     plt.bar(x,y, color='green')
-    plt.show()
+    #plt.show()
+    #plt.savefig('Backend/grafico_commits.png')
+
+    code_md = "![Gráfico de Commits](grafico_commits.png)" 
+
+    subprocess.run(f"echo '{code_md}' >> Backend/relatorio.md", shell=True)
 
 
 def commit(nome_arquivo, qtd_commits):
