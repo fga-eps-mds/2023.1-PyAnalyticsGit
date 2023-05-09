@@ -1,9 +1,22 @@
 header{
     /* height: 130px; */
-    background-color: #A9A9A9;
+    background-color: #ffd43b;
     border-radius: 10px;
     margin-left: 60px;
+    margin-right: 60px;
 }
+
+#logo-img{
+    height: 150px;
+    margin-top: 1rem;
+}
+
+#logomarca{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
 #title {
     font-size: 60px;
     /* text-align: center; */
@@ -19,7 +32,8 @@ header{
     /* text-align: center; */
 }
 body{
-    background-color: #DCDCDC;
+    background-color:  #306998;
+    margin-bottom: 100px;
 }
 
 .container{
@@ -27,23 +41,57 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .block{
     flex-basis: 30%; 
     padding: 5%;   
-    background-color: #A9A9A9;
+    background-color: #ffd43b;
     border-radius: 20px;
     /* width: 150px; */
     height: 350px;
     margin-right: 40px;
     margin-top: 40px;
     margin-left: 60px;
+    margin-bottom: 2rem;
 }
 
 a:hover {
     text-decoration: underline;
     color:aqua;
 }
+
+#integrantes{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#container-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 175px;
+}
+
+.user-foto{
+    border: 2px solid #ffd43b;
+    width: 200px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.user-foto-img{
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.nome-user{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: large;
+}
+
 
