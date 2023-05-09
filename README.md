@@ -1,5 +1,7 @@
 # 📝 Descrição
-Este projeto é uma biblioteca Python que tem como objetivo gerar relatórios de repositórios Git de forma offline, através de linha de comando. A partir do git log de um repositório, é possível gerar um relatório em formato de texto com estatísticas de um usuário específico ou de toda a equipe. Essa biblioteca é destinada aos desenvolvedores e equipes de desenvolvimento que trabalham com repositórios Git e desejam gerar relatórios textuais, estatísticos e gráficos a partir do histórico de commits do projeto. Especificamente, desenvolvedores que desejam acompanhar o desempenho do projeto e identificar possíveis problemas ou oportunidades de melhoria.
+O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de Software que tem como funcionalidades, a biblioteca do PyAnalyticsGit possibilita que o usuário consiga gerar relatórios automatizados com base em dados de repositórios do GitHub, tais quais, histórico de commits, nome do commit, branch, tamanho do log, etc...
+
+A biblioteca do PyAnalyticsGit deve ser capaz de analisar o desempenho de um projeto oferecendo no relatório parâmetros como taxa de commit por branch, taxa de commit por tempo, horario recorrente de commit, entre outros.
 
 ## Objetivos:
 como objetivo geral auxiliar e facilitar aos desenvolvedores obterem relatórios automatizados com dados de projetos no Github de forma mais acessível, afim de acompanhar e ter o controle do andamento daquele projeto.
@@ -11,12 +13,13 @@ como objetivo geral auxiliar e facilitar aos desenvolvedores obterem relatórios
 | :---: | :---: | :---: |  :---: | :---: | :---: | 
 
 ## Linceça:
-O PyAnalyticsGit é licenciado sob o MIT License. [licença](/LICENSE).
+
+ O PyAnalyticsGit é licenciado sob o MIT License. [licença](/LICENSE).
 
 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/98030427/236963886-3b0ea26e-b73e-470b-89d5-7ecb77b85d55.jpg" width="300px" />
+<img src="https://user-images.githubusercontent.com/98030427/236968066-315be92b-eabe-4d76-a5d7-bbaaa8df1e2d.png" width="300px" />
 </div>
 
 
