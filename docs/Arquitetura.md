@@ -5,8 +5,7 @@
 ## Descrição do Produto
 
 
-O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de Software, sendo uma biblioteca capaz de gerar relatórios de repositórios do Github.
-repositórios do Github. A biblioteca deverar ser capaz de interagir com o git, analisar o dessempenho do projeto, gerar relatórios automatizados e conter informações detalhadas do repositorio.  
+O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de Software, sendo uma biblioteca capaz de gerar relatórios de repositórios do Github. A biblioteca deverar ser capaz de interagir com o git, analisar o dessempenho do projeto, gerar relatórios automatizados e conter informações detalhadas do repositorio.  
 
 
 ## Objetivo:
