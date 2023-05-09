@@ -40,11 +40,11 @@ def grafico():
     plt.title("Média de commits por integrante")
     plt.xlabel("Integrantes")
     plt.ylabel("Commits")
-    plt.savefig('Backend/grafico_commits.png')
+    plt.savefig('pyAnalyticsGit/grafico_commits.png')
 
     code_md = "![Gráfico de Commits](grafico_commits.png)" 
 
-    subprocess.run(f"echo '{code_md}' >> Backend/infos_commit.md", shell=True)
+    subprocess.run(f"echo '{code_md}' >> pyAnalyticsGit/infos_commit.md", shell=True)
 
 def commit(nome_arquivo, qtd_commits):
     global contador_commit
