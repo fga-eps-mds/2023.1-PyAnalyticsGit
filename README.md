@@ -3,8 +3,10 @@ O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de 
 
 A biblioteca do PyAnalyticsGit deve ser capaz de analisar o desempenho de um projeto oferecendo no relatório parâmetros como taxa de commit por branch, taxa de commit por tempo, horario recorrente de commit, entre outros.
 
+Com essa ferramenta, é possível obter uma ampla variedade de dados e análises de projetos e repositórios do Git, incluindo gráficos e estatísticas. A biblioteca funciona recebendo os dados de saída dos comandos do Git e realizando a análise e tratamento dos dados de forma eficiente e precisa. Com essa solução, os usuários podem otimizar seus processos e aprimorar a gestão dos seus projetos do Git.
+
 ## Objetivos:
-como objetivo geral auxiliar e facilitar aos desenvolvedores obterem relatórios automatizados com dados de projetos no Github de forma mais acessível, afim de acompanhar e ter o controle do andamento daquele projeto.
+A ferramenta em questão tem como objetivo gerar relatórios do Git a partir da saída de comandos em repositórios Git. Com sua capacidade de geração de relatórios em markdown, a ferramenta ainda é capaz de gerar gráficos contendo informações relevantes do repositório em questão. O objetivo é que, ao se fazer um commit, a biblioteca crie um relatorio em markdown com as informações atualizadas do repositório.
 
 
 # 🤝 Colaboradores
@@ -15,6 +17,7 @@ como objetivo geral auxiliar e facilitar aos desenvolvedores obterem relatórios
 ## Linceça:
 
  O PyAnalyticsGit é licenciado sob o MIT License. [licença](/LICENSE).
+ ##
 
 
 
