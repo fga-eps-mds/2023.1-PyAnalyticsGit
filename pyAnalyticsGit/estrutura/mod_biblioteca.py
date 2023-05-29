@@ -1,14 +1,13 @@
 import subprocess
+
 class mod_biblioteca:
-    
+
     @staticmethod
     def automatiza_commit():
-        """Metodo que por meio do subprocess altera o post-commit para que seja automatizado os commits."""
-        diretorio_hooks = "/home/jefferson/unb/mds/projeto_mds/RepositorioTest/repositorioTestPyAnalytics/.git/hooks"
+        diretorio_hooks = "/home/jefferson/unb/mds/projeto_mds/modulo_teste/repositorioTestPyAnalytics/.git/hooks"
 
         comando_post_commit = '''#!/bin/sh
-            echo "Commit realizado!"
-            python unb/mds/projeto_mds/2023.1-PyAnalyticsGit/pyAnalyticsGit/estrutura/monitoramento.py '''
+            /usr/bin/python3 /home/jefferson/unb/mds/projeto_mds/modulo_teste/repositorioTestPyAnalytics/monitoramento.py '''
 
         diretorio_post_commit = f'{diretorio_hooks}/post-commit'
 
@@ -16,7 +15,11 @@ class mod_biblioteca:
             arquivo.seek(0)  # Posiciona o ponteiro de leitura no início do arquivo
             if comando_post_commit not in arquivo.read():
                 arquivo.write(comando_post_commit)
+            else:
+                print('Arquivo não alterado!---')
 
         subprocess.run(['chmod', '+x', diretorio_post_commit])
 
-    automatiza_commit()
+obj = mod_biblioteca()
+obj.automatiza_commit()
+
