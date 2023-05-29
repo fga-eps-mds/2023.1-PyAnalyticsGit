@@ -11,7 +11,7 @@ from estrutura import mod_biblioteca
 contador_commit = 0
 
 #Variavel que guarda o caminho do repositorio(Trocar para o caminho do seu PC)
-repo_path = "/home/jefferson/UnB/Mds/Projeto_Mds/2023.1-Biblioteca-Relatorios-Git" 
+repo_path = "/home/jefferson/unb/mds/projeto_mds/RepositorioTest/repositorioTestPyAnalytics/repositorioTestPyAnalytics" 
 
 repo = Repo(repo_path) 
 
