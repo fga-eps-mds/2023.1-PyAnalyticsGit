@@ -6,6 +6,7 @@
 from git import Repo, Commit
 import matplotlib.pyplot as plt
 import subprocess
+from estrutura import mod_biblioteca
 
 contador_commit = 0
 
@@ -15,6 +16,9 @@ repo_path = "/home/jefferson/UnB/Mds/Projeto_Mds/2023.1-Biblioteca-Relatorios-Gi
 repo = Repo(repo_path) 
 
 commits = list(repo.iter_commits('main'))
+
+grafico()
+commit('infos_commit',25)
 
 def grafico():
 # Dicionário para armazenar o número de commits por usuário
@@ -72,6 +76,3 @@ def commit(nome_arquivo, qtd_commits):
         #arq.write(f'**Número Total de commits: {contador_commit}**')
     else:
         print(f'Não foi possivel encontrar uma repositório em uso em {repo_path}')
-
-grafico()
-commit('infos_commit',25)
