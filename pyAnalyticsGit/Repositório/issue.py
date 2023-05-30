@@ -50,9 +50,9 @@ class Issue:
         for issue in self.all_issues:
             for labels in issue["labels"]:
                 if labels["name"] == label:
-                    arq.write(f'Título: {issue["title"]}\n')
-                    arq.write(f'Estado: {issue["state"]}\n')
-                    arq.write(f'Número: {issue["number"]}\n')
+                    arq.write(f'- Título: {issue["title"]}\n')
+                    arq.write(f'- Estado: {issue["state"]}\n')
+                    arq.write(f'- Número: {issue["number"]}\n')
                     arq.write('---------------------\n')
                     c = c + 1
         if c == 0 :
