@@ -1,0 +1,18 @@
+- Título: Sprint 7
+- Cirado em: 17/05/2023
+- Descrição: Nessa Sprint o escopo e visão do produto passará por ajustes e o UML do projeto será estruturado com todos os módulos de funcionamento da biblioteca. Também sera feito ajustes no Backlog do projeto e será iniciado uma implementação inicial utilizando a API do GitHub. 
+- Issues Abertas: 1
+- Issues Fechadas: 0
+---------------------
+- Título: Sprint 08 
+- Cirado em: 30/05/2023
+- Descrição: 
+- Issues Abertas: 1
+- Issues Fechadas: 0
+---------------------
+- Título: Sprint 09
+- Cirado em: 30/05/2023
+- Descrição: 
+- Issues Abertas: 0
+- Issues Fechadas: 0
+---------------------
