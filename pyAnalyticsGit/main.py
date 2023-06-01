@@ -11,4 +11,3 @@ obj_issue.listar_issue()
 
 
 relatorio.connect("fafjjsdf","fdhasufasddfas")
-relatorio.gerar_nuvem()
