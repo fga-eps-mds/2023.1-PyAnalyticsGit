@@ -15,16 +15,16 @@ class relatorio:
         with open(self.nome_arquivo, 'a+') as arq:
             arq.seek(0)
             if self.titulo not in arq.read():
-                arq.write(f'{self.titulo}\n')
+                arq.write(f'{self.titulo}\n') 
 
         commits = Commits()
         commits.connect(username, reponame)
 
         with open(self.nome_arquivo, 'a+') as arq:
             arq.write('\n### Grafico de Barras\n\n')
-            arq.write('![Grafico de Barras](grafico.png)\n\n')
+            arq.write('![Grafico de Barras](pyAnalyticsGit/grafico.png)\n\n')
             arq.write('### Nuvem de Palavras\n\n')
-            arq.write('![Nuvem de Palavras](nuvem_palavras.png)\n\n')
+            arq.write('![Nuvem de Palavras](pyAnalyticsGit/nuvem.png)\n\n')
 
 template = relatorio()
 template.gerar_relatorio("fga-eps-mds","2023.1-PyAnalyticsGit")            

@@ -33,7 +33,7 @@ class AnaliseTextual:
         plt.imshow(wordcloud, interpolation='bilinear') 
         plt.axis('off')
         plt.title('Nuvem de palavras com nomes dos Commits')
-        plt.savefig('pyAnalyticsGit/nuvem_commits.png')
+        plt.savefig('pyAnalyticsGit/nuvem.png')
 
 
 analise = AnaliseTextual()

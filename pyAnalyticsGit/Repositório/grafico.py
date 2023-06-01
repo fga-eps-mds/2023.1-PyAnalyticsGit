@@ -22,7 +22,7 @@ class Grafico:
         plt.title('Gráfico de Commits por Autor', fontsize=16, color='black')
         plt.xticks(rotation=45)
         plt.gca().set_facecolor('black')
-        plt.show()
+        plt.savefig('pyAnalyticsGit/grafico.png')
 
 commits_obj = Commits()
 commits_obj.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
