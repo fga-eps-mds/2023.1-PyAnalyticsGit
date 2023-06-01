@@ -4,10 +4,10 @@ class mod_biblioteca:
 
     @staticmethod
     def automatiza_commit():
-        diretorio_hooks = "/home/jefferson/unb/mds/projeto_mds/modulo_teste/repositorioTestPyAnalytics/.git/hooks"
+        diretorio_hooks = "/home/jefferson/unb/mds/projeto_mds/2023.1-PyAnalyticsGit/.git/hooks"
 
         comando_post_commit = '''#!/bin/sh
-            /usr/bin/python3 /home/jefferson/unb/mds/projeto_mds/modulo_teste/repositorioTestPyAnalytics/monitoramento.py '''
+            /usr/bin/python3 /home/jefferson/unb/mds/projeto_mds/2023.1-PyAnalyticsGit/pyAnalyticsGit/estrutura/monitoramento.py '''
 
         diretorio_post_commit = f'{diretorio_hooks}/post-commit'
 

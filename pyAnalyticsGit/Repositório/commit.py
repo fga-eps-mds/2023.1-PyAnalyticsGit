@@ -39,6 +39,6 @@ class Commits:
                 exit()
 
 c1 = Commits()
-c1.connect("Tiago1604","teste-github-vscode")
+c1.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
 c1.listar_commits()
 c1.listar_commits_author('Tiago1604')

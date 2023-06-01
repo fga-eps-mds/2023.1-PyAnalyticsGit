@@ -1,1 +1,0 @@
-## PyAnalyticsGit - Relatório automatizado
