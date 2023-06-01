@@ -1,8 +1,9 @@
 import requests
+from pyAnalyticsGit.Repositório.relatorio import Relatorio
 
 class Issue:
-    def __init__(self):
-        pass
+    def __init__(self,obj_relatorio):
+        self.obj_relatorio = obj_relatorio
 
     def connect(self,username,reponame):
         self.username = username
@@ -31,17 +32,17 @@ class Issue:
                 break
 
     def listar_issue(self):
-        arq = open("Issues.md","w+")
+        #arq = open("relatorio_padrao.md","a+")
         for issue in self.all_issues:
-            arq.write(f'- Título: {issue["title"]}\n')
-            arq.write(f'- Estado: {issue["state"]}\n')
-            arq.write(f'- Número: {issue["number"]}\n')
+            self.obj_relatorio.write(f'- Título: {issue["title"]}\n')
+            self.obj_relatorio.write(f'- Estado: {issue["state"]}\n')
+            self.obj_relatorio.write(f'- Número: {issue["number"]}\n')
             labels = []
             for label in issue["labels"]:
                 labels.append(label["name"])
             #arq.write("Labels:",", ".join(labels))
-            arq.write(f'- Labels: {", ".join(labels)}\n')
-            arq.write('---------------------\n')
+            self.obj_relatorio.write(f'- Labels: {", ".join(labels)}\n')
+            self.obj_relatorio.write('---------------------\n')
 
     def listar_issue_label(self,label):
         arq = open(f'issues_{label}.md',"w+")
@@ -63,11 +64,11 @@ class Issue:
 
 
 #issue1 = Issue()
-issue2 = Issue()
+#issue2 = Issue()
 
 #issue1.connect("Tiago1604","teste-github-vscode")
 #issue1.listar_issue()
 
-issue2.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
-issue2.listar_issue_label("documentation")
+#issue2.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
+#issue2.listar_issue_label("documentation")
 #issue2.listar_issue()
