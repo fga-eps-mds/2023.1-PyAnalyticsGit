@@ -1,9 +1,8 @@
 import requests
-from pyAnalyticsGit.Repositório.relatorio import Relatorio
 
 class Issue:
-    def __init__(self,obj_relatorio):
-        self.obj_relatorio = obj_relatorio
+    def __init__(self):
+        pass
 
     def connect(self,username,reponame):
         self.username = username
@@ -32,17 +31,19 @@ class Issue:
                 break
 
     def listar_issue(self):
-        #arq = open("relatorio_padrao.md","a+")
+        arq = open("relatorio_padrao.md","a+")
         for issue in self.all_issues:
-            self.obj_relatorio.write(f'- Título: {issue["title"]}\n')
-            self.obj_relatorio.write(f'- Estado: {issue["state"]}\n')
-            self.obj_relatorio.write(f'- Número: {issue["number"]}\n')
-            labels = []
-            for label in issue["labels"]:
-                labels.append(label["name"])
-            #arq.write("Labels:",", ".join(labels))
-            self.obj_relatorio.write(f'- Labels: {", ".join(labels)}\n')
-            self.obj_relatorio.write('---------------------\n')
+            arq.seek(0)
+            if str(issue["number"]) not in arq.read():
+                arq.write(f'- Título: {issue["title"]}\n')
+                arq.write(f'- Estado: {issue["state"]}\n')
+                arq.write(f'- Número: {issue["number"]}\n')
+                labels = []
+                for label in issue["labels"]:
+                    labels.append(label["name"])
+                #arq.write("Labels:",", ".join(labels))
+                arq.write(f'- Labels: {", ".join(labels)}\n')
+                arq.write('---------------------\n')
 
     def listar_issue_label(self,label):
         arq = open(f'issues_{label}.md',"w+")
