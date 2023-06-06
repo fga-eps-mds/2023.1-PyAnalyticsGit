@@ -1,26 +1,14 @@
 import requests
+from connect import Connect
 
 class Commits:
     def __init__(self):
-        pass
+        connect = Connect()
+        self.commits = connect.connect_commit()
 
-    def connect(self,username,reponame):
-        self.username = username
-        self.reponame = reponame
-
-        url = f'https://api.github.com/repos/{username}/{reponame}/commits'
-
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            self.commits = response.json()
-            print("conexão estabelecida\n")
-        else:
-            print(f'Falha ao obter os detalhes do repositório {reponame}.')
-            exit()
 
     def listar_commits(self):    
-        arq = open(f'relatorio_padrao.md','a+')
+        arq = open(f'relatorio_padraoo.md','a+')
         arq.write('# Commits\n')
         for commit in self.commits:
             arq.write(f'- hash do commit: {commit["sha"]}\n')
@@ -39,7 +27,7 @@ class Commits:
                 print("Essa pessoa não realizou commits")
                 exit()
 
-# c1 = Commits()
-# c1.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
+c1 = Commits()
+c1.listar_commits()
 # c1.listar_commits()
 # c1.listar_commits_author('Tiago1604')

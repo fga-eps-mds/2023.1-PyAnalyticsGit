@@ -41,7 +41,32 @@ class Connect:
 
         return self.all_issues       
 
-# connect = Connect()
+    def connect_commit(self):
+        self.username = api_user
+        self.reponame = api_name
 
-# all_issues  = connect.connect_issue("fga-eps-mds","2023.1-PyAnalyticsGit")
-# print(all_issues)
+        page = 1
+        per_page = 30
+        self.all_commits = []
+
+        while True:           
+            response = requests.get(f'https://api.github.com/repos/{self.username}/{self.reponame}/commits?&all&page={page}&per_page={per_page}')
+
+            if response.status_code == 200:
+                self.commits = response.json()
+                self.all_commits.extend(self.commits)
+                #print("conexão estabelecida\n")
+
+                if len(self.commits) < per_page:
+                    break
+                else:
+                    page += 1
+               
+
+            else:
+                print(f'Falha ao obter os detalhes do repositório {self.reponame}.')
+                print(f'StatusCode: {response.status_code}')
+                break
+
+        return self.all_commits
+
