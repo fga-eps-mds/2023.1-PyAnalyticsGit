@@ -21,7 +21,8 @@ class Milestone:
             exit()
 
     def list_milestone(self):
-        arq = open(f'Milestone.md','w+')
+        arq = open(f'relatorio_padrao.md','a+')
+        arq.write('# Milestones\n')
         for milestone in self.milestones:
             data_inicio = milestone["created_at"]
             data_formatada = datetime.strptime(data_inicio, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y")
@@ -33,6 +34,6 @@ class Milestone:
             arq.write('---------------------\n')
 
 
-milestone = Milestone()
-milestone.get_milestones("fga-eps-mds","2023.1-PyAnalyticsGit")
-milestone.list_milestone()
+# milestone = Milestone()
+# milestone.con_milestones("fga-eps-mds","2023.1-PyAnalyticsGit")
+# milestone.list_milestone()

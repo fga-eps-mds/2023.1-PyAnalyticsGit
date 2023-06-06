@@ -32,6 +32,7 @@ class Issue:
 
     def listar_issue(self):
         arq = open("relatorio_padrao.md","a+")
+        arq.write('# Issues\n')
         for issue in self.all_issues:
             arq.seek(0)
             if str(issue["number"]) not in arq.read():

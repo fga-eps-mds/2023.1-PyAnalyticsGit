@@ -39,13 +39,16 @@ class Relatorio:
             obj_milestone = Milestone()
             obj_milestone.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
             obj_milestone.list_milestone()
+    
                 
 
 obj_relatorio = Relatorio()
-obj_relatorio.exec_issues()
+# obj_relatorio.exec_issues()
+# obj_relatorio.exec_milestones()
 
 
 template = Relatorio()
-template.gerar_relatorio("fga-eps-mds","2023.1-PyAnalyticsGit")            
+template.gerar_relatorio("fga-eps-mds","2023.1-PyAnalyticsGit") 
+template.exec_issues()       
 
 template = Relatorio()

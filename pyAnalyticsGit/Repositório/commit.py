@@ -19,8 +19,9 @@ class Commits:
             print(f'Falha ao obter os detalhes do repositório {reponame}.')
             exit()
 
-    def listar_commits(self):
+    def listar_commits(self):    
         arq = open(f'relatorio_commits.md','w+')
+        arq.write('# Commits\n')
         for commit in self.commits:
             arq.write(f'- hash do commit: {commit["sha"]}\n')
             arq.write(f'- author do commit: {commit["commit"]["author"]["name"]}\n')
@@ -38,7 +39,7 @@ class Commits:
                 print("Essa pessoa não realizou commits")
                 exit()
 
-c1 = Commits()
-c1.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
-c1.listar_commits()
-c1.listar_commits_author('Tiago1604')
+# c1 = Commits()
+# c1.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
+# c1.listar_commits()
+# c1.listar_commits_author('Tiago1604')
