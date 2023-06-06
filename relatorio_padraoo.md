@@ -1,0 +1,131 @@
+# Issues
+- Título: Criação das classes dos gráficos e tabelas
+- Estado: open
+- Número: 26
+- Labels: 
+---------------------
+- Título: Erros na Classe Issue
+- Estado: open
+- Número: 25
+- Labels: bug, Tarefas, important
+---------------------
+- Título: Criação dos métodos para automatizar a biblioteca
+- Estado: open
+- Número: 24
+- Labels: important, Backend
+---------------------
+- Título: Estudo subprocess e automatização 
+- Estado: open
+- Número: 23
+- Labels: 
+---------------------
+- Título: Criação do UML da Biblioteca
+- Estado: open
+- Número: 22
+- Labels: documentation, Tarefas
+---------------------
+- Título: Estudo da API do github
+- Estado: open
+- Número: 21
+- Labels: important, Studying, Training
+---------------------
+- Título: Visão de Produto
+- Estado: open
+- Número: 20
+- Labels: documentation, enhancement, important
+---------------------
+- Título: Definição da Identidade Visual do Projeto
+- Estado: closed
+- Número: 19
+- Labels: documentation
+---------------------
+- Título: Definição da Arquitetura
+- Estado: closed
+- Número: 18
+- Labels: documentation, Tarefas, important
+---------------------
+- Título: Preparo para apresentação R1
+- Estado: closed
+- Número: 17
+- Labels: Tarefas
+---------------------
+- Título: Criação do Template padrão de Issue
+- Estado: closed
+- Número: 16
+- Labels: documentation
+---------------------
+- Título: Git Pages 
+- Estado: closed
+- Número: 15
+- Labels: documentation, Tarefas, important, Studying
+---------------------
+- Título: Implementação básica para a R1
+- Estado: closed
+- Número: 14
+- Labels: enhancement, Tarefas, important
+---------------------
+- Título: Levantamento de Requisitos
+- Estado: closed
+- Número: 13
+- Labels: Tarefas, important
+---------------------
+- Título: Definição do Escopo do projeto
+- Estado: closed
+- Número: 12
+- Labels: documentation, Tarefas, important
+---------------------
+- Título: Criação do Pull_Request Template
+- Estado: closed
+- Número: 11
+- Labels: documentation
+---------------------
+- Título: Adição do Código de conduta
+- Estado: closed
+- Número: 10
+- Labels: Documento/Planilha, important
+---------------------
+- Título: Estudo/Treinamento Git e GitHub
+- Estado: closed
+- Número: 9
+- Labels: Studying, Training
+---------------------
+- Título: Estudo/Treinamento Levantamento de Requisitos
+- Estado: closed
+- Número: 8
+- Labels: Studying, Training
+---------------------
+- Título: Estudo/Treinamento - Python 
+- Estado: closed
+- Número: 7
+- Labels: Studying, Training
+---------------------
+- Título: Estudo/Treinamento de Scrum
+- Estado: closed
+- Número: 6
+- Labels: important, Studying, Training
+---------------------
+- Título: Planilha de Conhecimentos
+- Estado: closed
+- Número: 5
+- Labels: Documento/Planilha
+---------------------
+- Título: Documento de organização de horários 
+- Estado: closed
+- Número: 4
+- Labels: Documento/Planilha
+---------------------
+- Título: Planilha para organização de horários e ponto de controle
+- Estado: closed
+- Número: 3
+- Labels: Documento/Planilha
+---------------------
+- Título: Definição de horário para as reuniões
+- Estado: closed
+- Número: 2
+- Labels: Tarefas
+---------------------
+- Título: Proposta de temas 
+- Estado: closed
+- Número: 1
+- Labels: Tarefas
+---------------------

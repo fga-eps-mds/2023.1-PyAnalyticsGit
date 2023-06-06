@@ -4,10 +4,10 @@ from connect import Connect
 class Issue:
     def __init__(self):
         connect = Connect()
-        self.all_issues = connect.connect_issue("fga-eps-mds","2023.1-PyAnalyticsGit")
+        self.all_issues = connect.connect_issue()
 
     def listar_issue(self):
-        arq = open("relatorio_padrao.md","a+")
+        arq = open("relatorio_padraoo.md","a+")
         arq.write('# Issues\n')
         for issue in self.all_issues:
             arq.seek(0)
