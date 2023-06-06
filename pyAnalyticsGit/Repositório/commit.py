@@ -20,7 +20,7 @@ class Commits:
             exit()
 
     def listar_commits(self):    
-        arq = open(f'relatorio_commits.md','w+')
+        arq = open(f'relatorio_padrao.md','a+')
         arq.write('# Commits\n')
         for commit in self.commits:
             arq.write(f'- hash do commit: {commit["sha"]}\n')
