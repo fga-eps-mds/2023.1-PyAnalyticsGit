@@ -2,6 +2,7 @@ from grafico import Grafico
 from nuvem import AnaliseTextual
 from commit import Commits
 from issue import Issue
+from milestone import Milestone
 
 class Relatorio:
     def __init__(self):
@@ -33,6 +34,11 @@ class Relatorio:
             obj_issue = Issue()
             obj_issue.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
             obj_issue.listar_issue()
+
+    def exec_milestones(self):
+            obj_milestone = Milestone()
+            obj_milestone.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
+            obj_milestone.list_milestone()
                 
 
 obj_relatorio = Relatorio()

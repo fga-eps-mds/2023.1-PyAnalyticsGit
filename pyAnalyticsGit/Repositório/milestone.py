@@ -7,7 +7,7 @@ class Milestone:
         pass
 
 
-    def get_milestones(self,userName,repoName):
+    def connect(self, userName, repoName):
         self.userName = userName
         self.repoName = repoName
         # https://api.github.com/repos/fga-eps-mds/2023.1-PyAnalyticsGit/milestones
