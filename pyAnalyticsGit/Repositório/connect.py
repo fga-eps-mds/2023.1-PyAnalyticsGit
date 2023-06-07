@@ -69,4 +69,16 @@ class Connect:
                 break
 
         return self.all_commits
+    
+    def connect_milestone(self):
+        url =f'https://api.github.com/repos/{self.username}/{self.reponame}/milestones'
+        response = requests.get(url)
+
+        if response.status_code == 200:
+            self.milestones = response.json()
+            return self.milestones
+        else:
+            print(f'Falha ao obter os detalhes do repositório {self.reponame}.\n')
+            print(f'StatusCode: {response.status_code}')
+
 
