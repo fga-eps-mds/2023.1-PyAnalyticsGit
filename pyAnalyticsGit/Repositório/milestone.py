@@ -1,27 +1,17 @@
 import requests
 from datetime import datetime
+from connect import Connect 
+
+
 
 class Milestone:
-
     def __init__(self):
-        pass
-
-
-    def get_milestones(self,userName,repoName):
-        self.userName = userName
-        self.repoName = repoName
-        # https://api.github.com/repos/fga-eps-mds/2023.1-PyAnalyticsGit/milestones
-        url =f'https://api.github.com/repos/{userName}/{repoName}/milestones'
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            self.milestones = response.json()
-        else:
-            print(f'Falha ao obter os detalhes do repositório {repoName}.')
-            exit()
+        connect = Connect()
+        self.milestones = connect.connect_milestone()
 
     def list_milestone(self):
-        arq = open(f'Milestone.md','w+')
+        arq = open(f'relatorio_padrao.md','a+')
+        arq.write('# Milestones\n')
         for milestone in self.milestones:
             data_inicio = milestone["created_at"]
             data_formatada = datetime.strptime(data_inicio, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y")
@@ -34,5 +24,5 @@ class Milestone:
 
 
 milestone = Milestone()
-milestone.get_milestones("fga-eps-mds","2023.1-PyAnalyticsGit")
+
 milestone.list_milestone()
