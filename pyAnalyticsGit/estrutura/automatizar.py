@@ -32,7 +32,7 @@ class automatizar:
             if comando_post_commit not in arquivo.read():
                 arquivo.write(comando_post_commit)
             else:
-                print('Arquivo post_commit não encontrado.\n')
+                print('Arquivo post_commit alterado.\n')
 
         subprocess.run(['chmod', '+x', diretorio_post_commit])
 
