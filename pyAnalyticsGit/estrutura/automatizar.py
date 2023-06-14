@@ -5,9 +5,15 @@ import sys
 
 class automatizar:
 
-    caminho_repositorio = None
-    localizacao_monitoramento = None
-    nome_biblioteca = "monitoramento" #Classe que aciona o evento de monitoramento  
+    caminho_repositorio = ""
+    path_biblioteca = ""
+    localizacao_monitoramento = ""
+    nome_biblioteca = "pyAnalyticsGit" #Classe que aciona o evento de monitoramento  
+
+    def __init__(self):
+        self.encontra_path_biblioteca()
+        self.verifica_arquivo_git()
+        self.automatiza_commit()
 
     @staticmethod
     def automatiza_commit():
@@ -17,34 +23,28 @@ class automatizar:
 
         diretorio_post_commit = f'{diretorio_hooks}/post-commit'
 
-        print(f'Teste: - diretorio_hooks: {diretorio_hooks}\n')
-        print(f'Teste: - comando_post_commit: {comando_post_commit}\n')
-        print(f'Teste: - diretorio_post_commit: {diretorio_post_commit}\n')
+        print(f'Path .git/hooks: {diretorio_hooks}\n')
+        print(f'comando_post_commit: {comando_post_commit}\n')
+        print(f'Path post_commit: {diretorio_post_commit}\n')
 
         with open (diretorio_post_commit, 'a+') as arquivo:
             arquivo.seek(0)  # Posiciona o ponteiro de leitura no início do arquivo
             if comando_post_commit not in arquivo.read():
                 arquivo.write(comando_post_commit)
             else:
-                print('Arquivo não alterado!---')
+                print('Arquivo post_commit não encontrado.\n')
 
         subprocess.run(['chmod', '+x', diretorio_post_commit])
 
-    """
-        Este metodo verifica se o arquivo .git está na pasta onde o arquivo de import
-        da biblioteca será executado. 
-        O comando os.getcwd() retorna o caminho de execução do método. Em seguida é
-        adicionado o .git ao caminho para verificar sua existência.
-    """
     @staticmethod
     def verifica_arquivo_git():
         diretorio_atual = os.getcwd()   
         automatizar.caminho_repositorio = os.path.join(diretorio_atual, ".git")
         if os.path.exists(automatizar.caminho_repositorio):
-            print("Caminho do repositório:\n", automatizar.caminho_repositorio)
+            print(f'Path do repositório com .git: {automatizar.caminho_repositorio}\n')
             return automatizar.caminho_repositorio
         else:
-            print("Arquivo .git do repositório não encontrado.")
+            print("Arquivo .git do repositório não encontrado.\n")
         return None
     
     @staticmethod
@@ -57,27 +57,19 @@ class automatizar:
             print("Caminho do repositório:\n", caminho_repositorio) 
         return caminho_repositorio
     
-    #Encontra o path onde a biblioteca foi instalada
-    #sys.prefix retorna o diretório onde o python esta sendo executado
-    #importlib e sys são modulos nativos do python
-    #Se for declarado no caminho "site-packages a biblioteca está em um ambiente virtual"
     @staticmethod
     def encontra_path_biblioteca():
         try:
             spec = importlib.util.find_spec(automatizar.nome_biblioteca)
             if spec is not None:
-                automatizar.localizacao_monitoramento = spec.origin
-                print(f'O metodo retornou: {automatizar.localizacao_monitoramento}\n')
+                automatizar.path_biblioteca = spec.origin
+                automatizar.localizacao_monitoramento = automatizar.path_biblioteca[:-11]
+                automatizar.localizacao_monitoramento += "estrutura/monitoramento.py"
+                print(f'Path da biblioteca: {automatizar.localizacao_monitoramento}\n')
                 return automatizar.localizacao_monitoramento
             else:
-                print('Caminho não encontrado')
+                print('Path da biblioteca não encontrado.\n')
                 return None
         except ImportError:
-            return None    
-
-#Teste de Implementação
-obj = automatizar()
-obj.encontra_path_biblioteca()
-obj.verifica_arquivo_git()
-obj.automatiza_commit()
-
+            return None  
+        
