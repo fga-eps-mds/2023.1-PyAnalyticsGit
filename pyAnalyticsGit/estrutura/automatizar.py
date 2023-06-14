@@ -19,9 +19,10 @@ class automatizar:
     def automatiza_commit():
         diretorio_hooks = f'{automatizar.caminho_repositorio}/hooks'
         #Path onde a biblioteca foi instalada
-        comando_post_commit = f'#!/bin/sh /usr/bin/python3 {automatizar.localizacao_monitoramento} '
+        comando_post_commit = f'''#!/bin/sh 
+                                /usr/bin/python3 {automatizar.localizacao_monitoramento} '''
 
-        diretorio_post_commit = f'{diretorio_hooks}/post-commit'
+        diretorio_post_commit = f'{diretorio_hooks}/post-commit.sh'
 
         print(f'Path .git/hooks: {diretorio_hooks}\n')
         print(f'comando_post_commit: {comando_post_commit}\n')
@@ -32,7 +33,7 @@ class automatizar:
             if comando_post_commit not in arquivo.read():
                 arquivo.write(comando_post_commit)
             else:
-                print('Arquivo post_commit alterado.\n')
+                print('Arquivo post_commit não alterado.\n')
 
         subprocess.run(['chmod', '+x', diretorio_post_commit])
 
@@ -72,4 +73,3 @@ class automatizar:
                 return None
         except ImportError:
             return None  
-        
