@@ -1,16 +1,14 @@
 from wordcloud import STOPWORDS, WordCloud
 from commit import Commits
+from connect import Connect
+import os
 import matplotlib.pyplot as plt
 
 class AnaliseTextual:
     def __init__(self):
-        self.commits = None
+        connect = Connect()
+        self.commits = connect.connect_commit()
         self.palavras_ignoradas = ["o","a","e","i","u","de","des","da","das","do","dos","md","para","que"]
-
-    def conectar_repositorio(self,username,reponame):   
-        commits = Commits()
-        commits.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
-        self.commits = commits.commits
 
     def listar_nomes_commits(self):
         nomes_commits = []
@@ -33,9 +31,12 @@ class AnaliseTextual:
         plt.imshow(wordcloud, interpolation='bilinear') 
         plt.axis('off')
         plt.title('Nuvem de palavras com nomes dos Commits')
-        plt.savefig('pyAnalyticsGit/nuvem.png')
 
+        if os.path.exists('pyAnalyticsGit/nuvem.png'):
+            os.remove('pyAnalyticsGit/nuvem.png')
+
+        plt.savefig('pyAnalyticsGit/nuvem.png')
+        plt.show()
 
 analise = AnaliseTextual()
-analise.conectar_repositorio("fga-eps-mds","2023.1-PyAnalyticsGit")
 analise.gerar_nuvem_commits()
