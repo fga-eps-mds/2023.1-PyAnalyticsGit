@@ -1,11 +1,14 @@
 from collections import defaultdict
 import matplotlib.pyplot as plt
+import os
+from connect import Connect
 from commit import Commits
 
 
 class Grafico:
-    def __init__(self, commits):
-        self.commits = commits
+    def __init__(self):
+        connect = Connect()
+        self.commits = connect.connect_commit()
 
     def criar_grafico(self):
         commit_authors = defaultdict(int)
@@ -22,10 +25,11 @@ class Grafico:
         plt.title('Gráfico de Commits por Autor', fontsize=16, color='black')
         plt.xticks(rotation=45)
         plt.gca().set_facecolor('black')
+        if os.path.exists('pyAnalyticsGit/grafico.png'):
+            os.remove('pyAnalyticsGit/grafico.png')
+
         plt.savefig('pyAnalyticsGit/grafico.png')
+        plt.show()
 
-commits_obj = Commits()
-commits_obj.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
-
-grafico_obj = Grafico(commits_obj.commits)
+grafico_obj = Grafico()
 grafico_obj.criar_grafico()
