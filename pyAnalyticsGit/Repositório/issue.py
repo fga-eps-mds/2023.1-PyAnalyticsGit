@@ -1,9 +1,11 @@
+import requests
 from connect import Connect
 
 class Issue:
     def __init__(self):
         connect = Connect()
         self.all_issues = connect.connect_issue()
+       
 
     def listar_issue(self):
         arq = open("relatorio_padrao.md","a+")
@@ -36,33 +38,9 @@ class Issue:
         if c == 0 :
             print("Label não encontrada")
         else:
-            print(c)          
-
-    def contador_issues(self):
-        contador = {}
-        for issue in self.all_issues:
-            labels = []
-            for label in issue["labels"]:
-                labels.append(label["name"])
-        
-            for rotulo in labels:
-                if rotulo in contador:
-                    contador[rotulo] += 1
-                else:
-                    contador[rotulo] = 1
-        
-        labels_ordenada = sorted(contador.items(), key= lambda x:x[1], reverse=True)
-
-        with open("teste.md","a+") as arq:
-            arq.write("## Teste de contagem de Issues\n\n")
-            for rotulo,count in labels_ordenada:
-                arq.write(f'- **{rotulo}**: ')
-                arq.write(f'{str(count)}\n')
+            print(c)              
                     
 
 
-#issue1 = Issue()
-#issue1.listar_issue()
-#issue2.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
-#issue2.listar_issue_label("documentation")
-#issue2.listar_issue()
+issue1 = Issue()
+issue1.listar_issue()
