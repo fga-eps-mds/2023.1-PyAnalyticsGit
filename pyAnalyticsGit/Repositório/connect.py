@@ -71,6 +71,8 @@ class Connect:
         return self.all_commits
     
     def connect_milestone(self):
+        self.username = api_user
+        self.reponame = api_name
         url =f'https://api.github.com/repos/{self.username}/{self.reponame}/milestones'
         response = requests.get(url)
 

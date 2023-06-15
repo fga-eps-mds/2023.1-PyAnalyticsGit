@@ -1,0 +1,530 @@
+## PyAnalyticsGit - Relatório automatizado
+
+# Issues
+- Título: Criação de método para contagem de Issues
+- Estado: open
+- Número: 29
+- Labels: Tarefas, important, Backend
+---------------------
+- Título: Adicionar try-except na classe Connect
+- Estado: open
+- Número: 28
+- Labels: important, Backend
+---------------------
+- Título: Atualizar Github-pages
+- Estado: open
+- Número: 27
+- Labels: enhancement
+---------------------
+- Título: Criação das classes dos gráficos e tabelas
+- Estado: open
+- Número: 26
+- Labels: important, Backend
+---------------------
+- Título: Erros na Classe Issue
+- Estado: open
+- Número: 25
+- Labels: bug, Tarefas, important
+---------------------
+- Título: Criação dos métodos para automatizar a biblioteca
+- Estado: open
+- Número: 24
+- Labels: important, Backend
+---------------------
+- Título: Estudo subprocess e automatização 
+- Estado: open
+- Número: 23
+- Labels: 
+---------------------
+- Título: Criação do UML da Biblioteca
+- Estado: open
+- Número: 22
+- Labels: documentation, Tarefas
+---------------------
+- Título: Estudo da API do github
+- Estado: open
+- Número: 21
+- Labels: important, Studying, Training
+---------------------
+- Título: Visão de Produto
+- Estado: open
+- Número: 20
+- Labels: documentation, enhancement, important
+---------------------
+- Título: Definição da Identidade Visual do Projeto
+- Estado: closed
+- Número: 19
+- Labels: documentation
+---------------------
+- Título: Definição da Arquitetura
+- Estado: closed
+- Número: 18
+- Labels: documentation, Tarefas, important
+---------------------
+- Título: Preparo para apresentação R1
+- Estado: closed
+- Número: 17
+- Labels: Tarefas
+---------------------
+- Título: Criação do Template padrão de Issue
+- Estado: closed
+- Número: 16
+- Labels: documentation
+---------------------
+- Título: Git Pages 
+- Estado: closed
+- Número: 15
+- Labels: documentation, Tarefas, important, Studying
+---------------------
+- Título: Implementação básica para a R1
+- Estado: closed
+- Número: 14
+- Labels: enhancement, Tarefas, important
+---------------------
+- Título: Levantamento de Requisitos
+- Estado: closed
+- Número: 13
+- Labels: Tarefas, important
+---------------------
+- Título: Definição do Escopo do projeto
+- Estado: closed
+- Número: 12
+- Labels: documentation, Tarefas, important
+---------------------
+- Título: Criação do Pull_Request Template
+- Estado: closed
+- Número: 11
+- Labels: documentation
+---------------------
+- Título: Adição do Código de conduta
+- Estado: closed
+- Número: 10
+- Labels: Documento/Planilha, important
+---------------------
+- Título: Estudo/Treinamento Git e GitHub
+- Estado: closed
+- Número: 9
+- Labels: Studying, Training
+---------------------
+- Título: Estudo/Treinamento Levantamento de Requisitos
+- Estado: closed
+- Número: 8
+- Labels: Studying, Training
+---------------------
+- Título: Estudo/Treinamento - Python 
+- Estado: closed
+- Número: 7
+- Labels: Studying, Training
+---------------------
+- Título: Estudo/Treinamento de Scrum
+- Estado: closed
+- Número: 6
+- Labels: important, Studying, Training
+---------------------
+- Título: Planilha de Conhecimentos
+- Estado: closed
+- Número: 5
+- Labels: Documento/Planilha
+---------------------
+- Título: Documento de organização de horários 
+- Estado: closed
+- Número: 4
+- Labels: Documento/Planilha
+---------------------
+- Título: Planilha para organização de horários e ponto de controle
+- Estado: closed
+- Número: 3
+- Labels: Documento/Planilha
+---------------------
+- Título: Definição de horário para as reuniões
+- Estado: closed
+- Número: 2
+- Labels: Tarefas
+---------------------
+- Título: Proposta de temas 
+- Estado: closed
+- Número: 1
+- Labels: Tarefas
+---------------------
+# Milestones
+- Título: Sprint 7
+- Cirado em: 17/05/2023
+- Descrição: Nessa Sprint o escopo e visão do produto passará por ajustes e o UML do projeto será estruturado com todos os módulos de funcionamento da biblioteca. Também sera feito ajustes no Backlog do projeto e será iniciado uma implementação inicial utilizando a API do GitHub. 
+- Issues Abertas: 1
+- Issues Fechadas: 0
+---------------------
+- Título: Sprint 08 
+- Cirado em: 30/05/2023
+- Descrição: 
+- Issues Abertas: 2
+- Issues Fechadas: 0
+---------------------
+- Título: Sprint 09
+- Cirado em: 30/05/2023
+- Descrição: 
+- Issues Abertas: 1
+- Issues Fechadas: 0
+---------------------
+# Commits
+- hash do commit: f01894c839bba0d59372a7ece233b81edf0e39b8
+- author do commit: JeffersonSenaa
+- Mensagem: Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit
+----------------------------
+- hash do commit: a1bd9caf7200de0bfb60dc598ad4569d49e32304
+- author do commit: JeffersonSenaa
+- Mensagem: Remoção de arquivos temporários e automação dos métodos que gera o relatório
+----------------------------
+- hash do commit: f7ccb675b8bbe62d38ea8e2cf4daf06eeef34ddd
+- author do commit: JeffersonSenaa
+- Mensagem: Terceiro teste de automação do biblioteca. A partir de um commit os métodos da biblioteca são acionados.
+----------------------------
+- hash do commit: 7c0593607a04f59697721371aec78e687c6725c3
+- author do commit: JeffersonSenaa
+- Mensagem: Segundo teste de automação da biblioteca
+----------------------------
+- hash do commit: 8180c6f2e83fd2fbcc9bee80ac7743c0a1884cfd
+- author do commit: PedroHhenriq
+- Mensagem: Incremento nas classes Gráfico e Nuvem de palavras para atualizarem a imagem e modificação para interagirem com a classe Connect
+----------------------------
+- hash do commit: 6ed2dd71cb199260d7775f8881ffcd14aa987a34
+- author do commit: JeffersonSenaa
+- Mensagem: Teste de automação da biblioteca
+----------------------------
+- hash do commit: 8431f26ea5f05ea5f825819c143b7f496166d931
+- author do commit: Tiago1604
+- Mensagem: Criação do metodo de issue na Main
+----------------------------
+- hash do commit: e153b0137c05cfd10ba554a901b92a7f4ce9b24a
+- author do commit: JeffersonSenaa
+- Mensagem: Implementação do fluxo de automação da biblioteca e teste da configuração por meio do import da biblioteca
+----------------------------
+- hash do commit: 57ab10b23587b3bc3143629eddf778c773bf7800
+- author do commit: JeffersonSenaa
+- Mensagem: Merge da branch testes para main. Foi realizada alterações referente a conexão com a API do Github e inserção dos módulos que automatiza a biblioteca a partir de um commit.
+----------------------------
+- hash do commit: bb7fe03f0906929425ab9828f23e174be33de42a
+- author do commit: JeffersonSenaa
+- Mensagem: Implementação de método que busca o caminho onde a biblioteca está instalada para automatizar por meio do arquivo na pasta hooks do git
+----------------------------
+- hash do commit: a7a84b2918fd0696b05e39b7b7dbb5f817710f28
+- author do commit: JeffersonSenaa
+- Mensagem: Implementação do método que verifica o arquivo .git do repositório.
+----------------------------
+- hash do commit: 93b107f8af6dcd4f267d03070c63e9692275490e
+- author do commit: Mateus Levy
+- Mensagem: connet_milestone() in connect
+----------------------------
+- hash do commit: 4b9c21b22335c82ca3be21b916524390da0b3350
+- author do commit: Tiago1604
+- Mensagem: Conexão da classe commit e connect
+----------------------------
+- hash do commit: 722ea0419b4429d915437249f0eda26c5192bb15
+- author do commit: Tiago1604
+- Mensagem: Criação do .env
+----------------------------
+- hash do commit: 333e8ab2200c50244ffcfdb4232061b3809517da
+- author do commit: Mateus Levy
+- Mensagem: criação da classe connect
+----------------------------
+- hash do commit: c148736fa7caa0d1b0db817a3938416814d42cdd
+- author do commit: Mateus Levy
+- Mensagem: Update issue templates
+----------------------------
+- hash do commit: c7eba6c8d7e37bca12fd605c6d46657fcd3a14ba
+- author do commit: Mateus Levy
+- Mensagem: Mudancas no relatorio_padrao.md
+----------------------------
+- hash do commit: abad95ea284f161271919a7e11051ad8917a6727
+- author do commit: Mateus Levy
+- Mensagem: adicionando __pycache__/ .gitignore
+----------------------------
+- hash do commit: 967ed384ad243dd99b2fee491c3aee73c1e02674
+- author do commit: Tiago1604
+- Mensagem: Integração das classes issue e relatorio
+----------------------------
+- hash do commit: b70c188e0e6cbd726077eaedd704ca4359bf8c21
+- author do commit: Tiago1604
+- Mensagem: Teste de automatização para evento de commit
+----------------------------
+- hash do commit: 7a8b11d1f95c19e66fd2f702fffa9d2f796a7291
+- author do commit: Tiago1604
+- Mensagem: commit de mudanças de testes
+----------------------------
+- hash do commit: f60d7b89beaf8bb1c5242a43e36c17506a2fe461
+- author do commit: JeffersonSenaa
+- Mensagem: Alteração no arquivo hooks e testes de criação de relatórios com a API do GitHub.
+----------------------------
+- hash do commit: 5c56c717bfe902f006e105491c919430b7ce8a34
+- author do commit: PedroHhenriq
+- Mensagem: Alteração da classe relatório, nuvem e grafico para gerar imagens do Gráfico e da Nuvem de palavras
+----------------------------
+- hash do commit: d5b23598e646f064af198b9fb5377c3402a8677d
+- author do commit: PedroHhenriq
+- Mensagem: Alteração da classe relatorio, mudança de pasta para Repositório e inclusão do grafico e nuvem de palavras
+----------------------------
+- hash do commit: 7dab2812c34d5bb74c167d59d18d99def6791a02
+- author do commit: JeffersonSenaa
+- Mensagem: Teste de automatização
+----------------------------
+- hash do commit: 0eda2db46c6fa705a2ddf07187eac26143aeb2fd
+- author do commit: JeffersonSenaa
+- Mensagem: Teste de integração
+----------------------------
+- hash do commit: 979a07fd5afd5182a824f47fb511ca19451b5a39
+- author do commit: PedroHhenriq
+- Mensagem: Criação da classe Gráfico e da classe Nuvem de palavras
+----------------------------
+- hash do commit: 0ffaed8d2a18409455212123f2400bedb6d54b5e
+- author do commit: Mateus Levy
+- Mensagem: list_milestone em milestone.py
+----------------------------
+- hash do commit: fa1af162bfe765183b967331cdc840873f677c01
+- author do commit: JeffersonSenaa
+- Mensagem: Criação da classe relatório que será a classe padrão para template do relatório.
+----------------------------
+- hash do commit: 83efa733a61abdba1816a8a66f62cee963b2e682
+- author do commit: Tiago1604
+- Mensagem: Correção de erro no markdown gerado.
+----------------------------
+- hash do commit: 487e0b06a673fcbf812fed804cbc351b0fa2ab7b
+- author do commit: Tiago1604
+- Mensagem: Atualização da Classe issue para abrir relatório.
+----------------------------
+- hash do commit: 087eb43644e4db945ca367e4363002e8ddf47bdf
+- author do commit: JeffersonSenaa
+- Mensagem: Criação da função que gera o caminho do repositório
+----------------------------
+- hash do commit: 8abd6fb27efd5e6efa17ef52780de1749963b45e
+- author do commit: Tiago1604
+- Mensagem: Implementação da classe repositório
+----------------------------
+- hash do commit: 76ba8e26b948c9baaacb77cc9513456acee8fdfc
+- author do commit: JeffersonSenaa
+- Mensagem: Implementação da função que autmoatiza commits
+----------------------------
+- hash do commit: 770c878cf36253efa08524e18c74a20cea22bd78
+- author do commit: JeffersonSenaa
+- Mensagem: Teste
+----------------------------
+- hash do commit: f6fa1eaf3b2ea08a1d2ef132cff98e05cacb3005
+- author do commit: JeffersonSenaa
+- Mensagem: Criação da função que automatiza o relatório a partir dos commits.
+----------------------------
+- hash do commit: bd3c812f899b898e29844e407e23538f439217a3
+- author do commit: JeffersonSenaa
+- Mensagem: Implementaçao do pacote estrutura e classe para rastrear commits
+----------------------------
+- hash do commit: db4831cda760e5636178017953ba4783d4f58ef6
+- author do commit: Mateus Levy
+- Mensagem: adicionando Api git
+----------------------------
+- hash do commit: 590bf8204c9790470a960808c9ffdddb4e2c2d07
+- author do commit: Mateus Levy
+- Mensagem: Update README.md
+----------------------------
+- hash do commit: 36042166207c0bc30e26b2a2b3884d8a33705b55
+- author do commit: Jefferson Sena
+- Mensagem: Update index.html
+----------------------------
+- hash do commit: b1140ff08d47bac7597b4d1b46443baa2629e66b
+- author do commit: Jefferson Sena
+- Mensagem: Rename issue_template_padrão.md to issue_template_padrao.md
+----------------------------
+- hash do commit: 006782abf38799cd03d4c69988bb195312b7a591
+- author do commit: JeffersonSenaa
+- Mensagem: Atualização no relatório
+----------------------------
+- hash do commit: 5b81b76189ec0b7edf5e3df855281902d3a8c229
+- author do commit: JeffersonSenaa
+- Mensagem: Inserção de novo gráfico do histórico de commits
+----------------------------
+- hash do commit: ab5d24ef9b88b6b3d79c7df25a48fd9a3dd37fbf
+- author do commit: JeffersonSenaa
+- Mensagem: Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git
+----------------------------
+- hash do commit: ff5df06d5b3b84aa9e9945925c71d56d0893115e
+- author do commit: Jefferson Sena
+- Mensagem: Create pull_request.md
+----------------------------
+- hash do commit: ee0117d6b55cbc88f0d6684eb4334b9fc180fbad
+- author do commit: Jefferson Sena
+- Mensagem: Create issue_template_padrão.md
+----------------------------
+- hash do commit: 191f91476569938225d26b5a95bc8e022e775237
+- author do commit: Jefferson Sena
+- Mensagem: Create bug_report.md
+----------------------------
+- hash do commit: 5ed05308d252fa0d892d2191719b843b04eeb315
+- author do commit: JeffersonSenaa
+- Mensagem: Revert "Rename User_History (LEAN INCEPTION).md to HISTÓRIA_DE_USUARIO (LEAN INCEPTION).md"
+
+This reverts commit d35bb0562c319fc6f01868c11775228d6c8f60e8.
+----------------------------
+- hash do commit: b810ae3e010605eb51d8db0d789de0f9abeb80b3
+- author do commit: JeffersonSenaa
+- Mensagem: Inserção de novo gráfico do histórico de commits
+----------------------------
+- hash do commit: 955ab4ca44d3dacfe83042043f3f1fbfaa16ab97
+- author do commit: JeffersonSenaa
+- Mensagem: Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git
+----------------------------
+- hash do commit: a5ef82c7fa3e20f5248fa099bf87f6c0ef463136
+- author do commit: JeffersonSenaa
+- Mensagem: Inserção de novo gráfico do histórico de commits
+----------------------------
+- hash do commit: d35bb0562c319fc6f01868c11775228d6c8f60e8
+- author do commit: Gabriel
+- Mensagem: Rename User_History (LEAN INCEPTION).md to HISTÓRIA_DE_USUARIO (LEAN INCEPTION).md
+----------------------------
+- hash do commit: 515fa44620574745fdd51a6847ff8cc35e739881
+- author do commit: Gabriel
+- Mensagem: Create JORNADA_DOS_USUARIOS(LEAN INCEPTION).md.md
+----------------------------
+- hash do commit: a700bd5172902d50c54c54b8f35e95ae8551d8f3
+- author do commit: JeffersonSenaa
+- Mensagem: Inserção de novo gráfico do histórico de commits
+----------------------------
+- hash do commit: f13109885032824a40774c4da614b861297c3d1e
+- author do commit: Gabriel
+- Mensagem: Create User_History (LEAN INCEPTION).md
+----------------------------
+- hash do commit: 0623b37618596e55c1cbdad6bddd2c9faaea784b
+- author do commit: rodfon3301
+- Mensagem: Update README.md
+----------------------------
+- hash do commit: 4d1066f383e1a643c1744d5f359116570166cb41
+- author do commit: JeffersonSenaa
+- Mensagem: Atualização do título do head
+----------------------------
+- hash do commit: 7e93eeef6cf74908911a3f851bc1df3c12b743fa
+- author do commit: rodfon3301
+- Mensagem: Update README.md
+----------------------------
+- hash do commit: ac1ea795da974c525f728fc6cd76500ff19e9bb5
+- author do commit: Tiago1604
+- Mensagem: Alteração do GitPages
+----------------------------
+- hash do commit: 1989bebff8474bd44457813772d2101370048f24
+- author do commit: rodfon3301
+- Mensagem: Rename REQUISITOS_E_ARQUITETURA.md to REQUISITOS_E_ARQUITETURA_(LEAN INCEPTION).md
+----------------------------
+- hash do commit: 540504915e731875b8d87b9dc214be64eee9493b
+- author do commit: rodfon3301
+- Mensagem: Rename PERSONAS.md to PERSONAS_(LEAN INCEPTION).md
+----------------------------
+- hash do commit: ed72e2040b8942589d9e5064c9eb6ac338faf9b9
+- author do commit: rodfon3301
+- Mensagem: Rename ÉPICOS_E_FEATURES.md to ÉPICOS_E_FEATURES_(LEAN INCEPTION).md
+----------------------------
+- hash do commit: bfa15d3d3fb75fcd15e7470c4e814065b4860020
+- author do commit: rodfon3301
+- Mensagem: Create ÉPICOS_E_FEATURES.md
+----------------------------
+- hash do commit: 0e5a13924c05285f003d8f3eef9147b605bfd276
+- author do commit: rodfon3301
+- Mensagem: Create PERSONAS.md
+----------------------------
+- hash do commit: a6eaf6460d55563ee101fb86a6dcfc4e62d01913
+- author do commit: rodfon3301
+- Mensagem: Rename DOC_REQUISITOS_E_ARQUITETURA.md to REQUISITOS_E_ARQUITETURA.md
+----------------------------
+- hash do commit: e582d008cd19965b458baa0a10de56bb6deb24fe
+- author do commit: rodfon3301
+- Mensagem: Create DOC_REQUISITOS_E_ARQUITETURA.md
+----------------------------
+- hash do commit: 70e7e886f935f86cb58a00d4f5cc944868e1bc20
+- author do commit: rodfon3301
+- Mensagem: Update README.md
+----------------------------
+- hash do commit: 7957d236dde7f0da3f70d8b63769fee907dbfa9d
+- author do commit: Gabriel
+- Mensagem: Rename Escopo.md to ESCOPO.md
+----------------------------
+- hash do commit: 29b85c43f1d33e26495ac1d4bc1241415e29f271
+- author do commit: PedroHhenriq
+- Mensagem: Delete Criação do arquivo imagens
+----------------------------
+- hash do commit: 238e0e676ac692a0f80953a32df5ce64542757aa
+- author do commit: PedroHhenriq
+- Mensagem: Add files via upload
+----------------------------
+- hash do commit: c6d082229ad93a0a83d42d826951feb48cab2f3b
+- author do commit: PedroHhenriq
+- Mensagem: Create Arquivo imagens
+----------------------------
+- hash do commit: c763792304d412e15a833ebf78dcd075bd5ff89f
+- author do commit: PedroHhenriq
+- Mensagem: Delete Personas.png
+----------------------------
+- hash do commit: b73c7e05c14d91b6c2754ec16b344f445218d02d
+- author do commit: PedroHhenriq
+- Mensagem: Delete Jornadas dos Usuários.png
+----------------------------
+- hash do commit: 5c38b3b35462d282624473b5e9bafc609a47e537
+- author do commit: PedroHhenriq
+- Mensagem: Delete Requisitos e Arquitetura.png
+----------------------------
+- hash do commit: 0c60aca33edf306118883bb9f9ba47f0aa9c9438
+- author do commit: PedroHhenriq
+- Mensagem: Delete User_Story.png
+----------------------------
+- hash do commit: cba15c9032edf8f96eb66f67acd2fe3ad12df9b8
+- author do commit: PedroHhenriq
+- Mensagem: Delete Épicos.png
+----------------------------
+- hash do commit: 04b03a1333025767d34986741b38b4680c395ff8
+- author do commit: PedroHhenriq
+- Mensagem: imagens
+----------------------------
+- hash do commit: 56e4f58b73a28b6238534c69520ff5791bba9a49
+- author do commit: rodfon3301
+- Mensagem: Update README.md
+----------------------------
+- hash do commit: 9e5eee226bcb2355a847ea7eab1a005dd4385c06
+- author do commit: JeffersonSenaa
+- Mensagem: Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git
+----------------------------
+- hash do commit: a115114210da4ce31332aaa6b0319ef278d2ccde
+- author do commit: JeffersonSenaa
+- Mensagem: Atualização do diretório
+----------------------------
+- hash do commit: 5f7a4440c3b3d25756c67e1f755fd45a94605a52
+- author do commit: rodfon3301
+- Mensagem: Update Arquitetura.md
+----------------------------
+- hash do commit: 684833bc0e9f87bff603c1f7f93711cb8fbecfe8
+- author do commit: JeffersonSenaa
+- Mensagem: Atualização do diretório
+----------------------------
+- hash do commit: 4006a27d86c945810f24b816d22029d30d06255f
+- author do commit: JeffersonSenaa
+- Mensagem: Atualização do diretório do codigo fonte
+----------------------------
+- hash do commit: 573fa8599d215bfa515c990972b5b7e96437f6f5
+- author do commit: rodfon3301
+- Mensagem: Update Arquitetura.md
+----------------------------
+- hash do commit: 16bc24ccfe9c1b216e65bfea8682f92039c8d48d
+- author do commit: PedroHhenriq
+- Mensagem: Update VISAO_DO_PRODUTO.md
+----------------------------
+- hash do commit: ad62391489ac537c2a9acd7d827bf181deff070a
+- author do commit: Gabriel
+- Mensagem: Update REQUISITOS.MD
+----------------------------
+- hash do commit: df96f10688bda6624cf7efd89f1d08ac5f1f16e3
+- author do commit: rodfon3301
+- Mensagem: Update and rename ARQUITETURA.md to Arquitetura.md
+----------------------------
+- hash do commit: 8c3c6f44427ad1b2ba84955caff08c1b83797ee7
+- author do commit: JeffersonSenaa
+- Mensagem: Implementação inicial das funcionalidades da biblioteca com histórico e gráfico dos commits.
+----------------------------
+- hash do commit: 8a491ab1504b14a3e5e2f9856dad69a32088c146
+- author do commit: JeffersonSenaa
+- Mensagem: Deletando arquivo de teste da implementação
+----------------------------
+- hash do commit: a3a70b39fa9150453cc9bb4167d3e3260e6f95f7
+- author do commit: JeffersonSenaa
+- Mensagem: Inserção do grafico no arquivo markdown.
+----------------------------

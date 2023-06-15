@@ -6,7 +6,7 @@ class Issue:
         self.all_issues = connect.connect_issue()
 
     def listar_issue(self):
-        arq = open("relatorio_padraoo.md","a+")
+        arq = open("relatorio_padrao.md","a+")
         arq.write('# Issues\n')
         for issue in self.all_issues:
             arq.seek(0)
@@ -61,9 +61,8 @@ class Issue:
                     
 
 
-issue1 = Issue()
-issue1.listar_issue()
-
+#issue1 = Issue()
+#issue1.listar_issue()
 #issue2.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
 #issue2.listar_issue_label("documentation")
 #issue2.listar_issue()
