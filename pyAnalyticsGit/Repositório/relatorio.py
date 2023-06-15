@@ -2,7 +2,7 @@ from grafico import Grafico
 from nuvem import AnaliseTextual
 from commit import Commits
 from issue import Issue
-from milestone import Milestone
+from milestone import Milestone #Import Milestone
 
 class Relatorio:
     def __init__(self):
