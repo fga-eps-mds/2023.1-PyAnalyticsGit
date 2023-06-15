@@ -25,8 +25,3 @@ class Commits:
             else:
                 print("Essa pessoa não realizou commits")
                 exit()
-
-#c1 = Commits()
-#c1.listar_commits()
-# c1.listar_commits()
-# c1.listar_commits_author('Tiago1604')
