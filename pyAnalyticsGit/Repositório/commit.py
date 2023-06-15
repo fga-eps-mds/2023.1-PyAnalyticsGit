@@ -1,4 +1,3 @@
-import requests
 from connect import Connect
 
 class Commits:
