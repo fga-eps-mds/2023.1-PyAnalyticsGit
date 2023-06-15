@@ -66,7 +66,7 @@ class automatizar:
             if spec is not None:
                 automatizar.path_biblioteca = spec.origin
                 automatizar.localizacao_monitoramento = automatizar.path_biblioteca[:-11]
-                automatizar.localizacao_monitoramento += "estrutura/monitoramento.py"
+                automatizar.localizacao_monitoramento += "Repositório/monitoramento.py"
                 print(f'Path da biblioteca: {automatizar.localizacao_monitoramento}\n')
                 return automatizar.localizacao_monitoramento
             else:

@@ -31,14 +31,14 @@ class Relatorio:
                 arq.write('![Nuvem de Palavras](pyAnalyticsGit/nuvem.png)\n\n')
 
     def exec_issues(self):
-            obj_issue = Issue()
-            obj_issue.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
-            obj_issue.listar_issue()
+            self.obj_issue = Issue()
+            self.obj_issue.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
+            self.obj_issue.listar_issue()
 
     def exec_milestones(self):
-            obj_milestone = Milestone()
-            obj_milestone.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
-            obj_milestone.list_milestone()
+            self.obj_milestone = Milestone()
+            self.obj_milestone.connect("fga-eps-mds","2023.1-PyAnalyticsGit")
+            self.obj_milestone.list_milestone()
     
                 
 

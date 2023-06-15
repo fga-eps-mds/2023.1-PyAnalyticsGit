@@ -1,4 +1,7 @@
-from Repositório.relatorio import Relatorio
+from relatorio import Relatorio
+from grafico import Grafico
+from connect import Connect
+from dotenv import load_dotenv
 
 class monitoramento:
 
