@@ -66,6 +66,9 @@ class Connect:
             else:
                 print(f'Falha ao obter os detalhes do repositório {self.reponame}.')
                 print(f'StatusCode: {response.status_code}')
+                
+                x_rate_limit_reset = response.headers['X-RateLimit-Reset']
+                print(x_rate_limit_reset)
                 break
 
         return self.all_commits
