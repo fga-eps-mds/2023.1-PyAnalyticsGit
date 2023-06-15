@@ -31,5 +31,5 @@ class Grafico:
         plt.savefig('pyAnalyticsGit/grafico.png')
         plt.show()
 
-grafico_obj = Grafico()
-grafico_obj.criar_grafico()
+#grafico_obj = Grafico()
+#grafico_obj.criar_grafico()

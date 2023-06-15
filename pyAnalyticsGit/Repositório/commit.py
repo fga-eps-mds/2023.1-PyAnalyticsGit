@@ -7,7 +7,7 @@ class Commits:
 
 
     def listar_commits(self):    
-        arq = open(f'relatorio_padraoo.md','a+')
+        arq = open(f'relatorio_padrao.md','a+')
         arq.write('# Commits\n')
         for commit in self.commits:
             arq.write(f'- hash do commit: {commit["sha"]}\n')
@@ -26,7 +26,7 @@ class Commits:
                 print("Essa pessoa não realizou commits")
                 exit()
 
-c1 = Commits()
-c1.listar_commits()
+#c1 = Commits()
+#c1.listar_commits()
 # c1.listar_commits()
 # c1.listar_commits_author('Tiago1604')

@@ -22,6 +22,6 @@ class Milestone:
             arq.write('---------------------\n')
 
 
-milestone = Milestone()
+#milestone = Milestone()
 
-milestone.list_milestone()
+#milestone.list_milestone()
