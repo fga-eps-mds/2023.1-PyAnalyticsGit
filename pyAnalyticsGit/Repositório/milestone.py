@@ -21,7 +21,3 @@ class Milestone:
             arq.write(f'- Issues Fechadas: {milestone["closed_issues"]}\n')
             arq.write('---------------------\n')
 
-
-#milestone = Milestone()
-
-#milestone.list_milestone()

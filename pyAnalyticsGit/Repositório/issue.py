@@ -38,9 +38,25 @@ class Issue:
         if c == 0 :
             print("Label não encontrada")
         else:
-            print(c)              
-                    
+            print(c) 
+                         
+    def contador_issues(self):
+        contador = {}
+        for issue in self.all_issues:
+            labels = []
+            for label in issue["labels"]:
+                labels.append(label["name"])
+        
+            for rotulo in labels:
+                if rotulo in contador:
+                    contador[rotulo] += 1
+                else:
+                    contador[rotulo] = 1
+        
+        labels_ordenada = sorted(contador.items(), key= lambda x:x[1], reverse=True)
 
-
-issue1 = Issue()
-issue1.listar_issue()
+        with open("teste.md","a+") as arq:
+            arq.write("## Teste de contagem de Issues\n\n")
+            for rotulo,count in labels_ordenada:
+                arq.write(f'- **{rotulo}**: ')
+                arq.write(f'{str(count)}\n')
