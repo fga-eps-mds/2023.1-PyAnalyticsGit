@@ -20,9 +20,9 @@ class automatizar:
         diretorio_hooks = f'{automatizar.caminho_repositorio}/hooks'
         #Path onde a biblioteca foi instalada
         comando_post_commit = f'''#!/bin/sh 
-                                /usr/bin/python3 {automatizar.localizacao_monitoramento} '''
+        /usr/bin/python3 {automatizar.localizacao_monitoramento}'''
 
-        diretorio_post_commit = f'{diretorio_hooks}/post-commit.sh'
+        diretorio_post_commit = f'{diretorio_hooks}/post-commit'
 
         print(f'Path .git/hooks: {diretorio_hooks}\n')
         print(f'comando_post_commit: {comando_post_commit}\n')
@@ -32,6 +32,7 @@ class automatizar:
             arquivo.seek(0)  # Posiciona o ponteiro de leitura no início do arquivo
             if comando_post_commit not in arquivo.read():
                 arquivo.write(comando_post_commit)
+                print("O arquivo post-commit foi alterado\n")
             else:
                 print('Arquivo post_commit não alterado.\n')
 
