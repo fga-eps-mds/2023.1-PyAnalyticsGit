@@ -11,6 +11,7 @@ class monitoramento:
     obj = Relatorio()
     obj.exec_issues()
     obj.exec_milestones()
+    obj.exec_commits()
     
 obj = monitoramento()
 obj.rastreamento_git()
