@@ -39,7 +39,7 @@ class Connect:
                     x_rate_limit_reset = response.headers['X-RateLimit-Reset']
                     print(x_rate_limit_reset)
                     break
-        except :
+        except requests.exceptions.RequestException as e:
             print(f'Ocorreu uma exceção durante a conexão: {e}')
 
         return self.all_issues
