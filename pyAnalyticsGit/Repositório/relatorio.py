@@ -1,4 +1,5 @@
 from grafico import Grafico
+from grafico_pizza import GraficoPizza
 from nuvem import AnaliseTextual
 from commit import Commits
 from issue import Issue
