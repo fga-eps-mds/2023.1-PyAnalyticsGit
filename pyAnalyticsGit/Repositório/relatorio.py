@@ -43,10 +43,5 @@ class Relatorio:
             obj_commits = Commits()
             obj_commits.listar_commits()
     
-                
-
-template = Relatorio()
-template.exec_issues()
-template.exec_milestones()
-template.exec_commits()       
+                    
 
