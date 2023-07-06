@@ -29,7 +29,4 @@ class Grafico:
             os.remove('pyAnalyticsGit/grafico.png')
 
         plt.savefig('pyAnalyticsGit/grafico.png')
-        plt.show()
-
-grafico_obj = Grafico()
-grafico_obj.criar_grafico()
+        plt.close()

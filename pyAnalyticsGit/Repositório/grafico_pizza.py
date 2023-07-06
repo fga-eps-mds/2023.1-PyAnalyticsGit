@@ -32,7 +32,4 @@ class GraficoPizza:
             os.remove('pyAnalyticsGit/grafico_pizza.png')   
 
         plt.savefig('pyAnalyticsGit/grafico_pizza.png')
-        plt.show()
-
-grafico_obj = GraficoPizza()
-grafico_obj.criar_grafico_pizza()
+        plt.close()

@@ -36,7 +36,4 @@ class AnaliseTextual:
             os.remove('pyAnalyticsGit/nuvem.png')
 
         plt.savefig('pyAnalyticsGit/nuvem.png')
-        plt.show()
-
-analise = AnaliseTextual()
-analise.gerar_nuvem_commits()
+        plt.close()
