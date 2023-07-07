@@ -80,7 +80,7 @@ class Connect:
             self.username = api_user
             self.reponame = api_name
 
-            url = f'https://api.github.com/repos/{self.username}/{self.reponame}/milestones'
+            url = f'https://api.github.com/repos/{self.username}/{self.reponame}/milestones?state=all'
             response = requests.get(url)
 
             if response.status_code == 200:

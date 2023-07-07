@@ -1,19 +1,13 @@
 import os
-from grafico import Grafico
-from grafico_issue import GraficoIssue
-from grafico_pizza import GraficoPizza
-from nuvem import AnaliseTextual
-from grafico_milestone import GraficoMilestone
-from tabela_issue import TabelaIssue
-from tabela_milestone import TabelaMilestone
-from tabela import Tabela
+from graficos import Graficos
+from tabelas import Tabelas
 #from commit import Commits
 #from issue import Issue
 #from milestone import Milestone #Import Milestone
 
 class Relatorio:
     def __init__(self):
-        self.nome_arquivo = "relatorio_padrao.md"
+        self.nome_arquivo = "relatorio_padrao_teste.md"
         self.titulo = "## - Relatório automatizado"
 
         with open(self.nome_arquivo, 'a+') as arq:
@@ -30,7 +24,7 @@ class Relatorio:
             if self.titulo not in arq.read():
                 arq.write(f'{self.titulo}\n') 
 
-        grafico = Grafico()
+        grafico = Graficos()
         grafico.criar_grafico()
 
         with open(self.nome_arquivo, 'a+', encoding="utf-8") as arq:
@@ -38,56 +32,38 @@ class Relatorio:
             arq.write("\n## Grafico de Commits\n\n")
             arq.write("![Grafico de Commits](pyAnalyticsGit/grafico.png)\n\n")
 
-        tabela_commit = Tabela()
-        tabela_commit.criar_tabela(self.nome_arquivo)
+        tabela = Tabelas()
+        tabela.criar_tabela(self.nome_arquivo)
 
-        nuvem_palavras = AnaliseTextual()
-        nuvem_palavras.gerar_nuvem_commits()
+        grafico.gerar_nuvem_commits()
 
         with open(self.nome_arquivo, 'a+', encoding="utf-8") as arq:
             arq.write("\n## Nuvem de Palavras dos Commits\n\n")
             arq.write("![Nuvem de Palavras dos Commits](pyAnalyticsGit/nuvem.png)\n\n")
 
-        grafico_issue = GraficoIssue()
-        grafico_issue.criar_grafico_issue()
+        grafico.criar_grafico_issue()
 
         with open(self.nome_arquivo, 'a+', encoding="utf-8") as arq:
             arq.write("# Issues\n\n")
             arq.write("## Gráfico de Issues\n\n")
             arq.write("![Gráfico de Issues](pyAnalyticsGit/grafico_issues.png)\n\n")
 
-        tabela_issue = TabelaIssue()
-        tabela_issue.criar_tabela_issue(self.nome_arquivo)
+        tabela.criar_tabela_issue(self.nome_arquivo)
         
-        grafico_pizza = GraficoPizza()
-        grafico_pizza.criar_grafico_pizza()
+        grafico.criar_grafico_pizza()
 
         with open(self.nome_arquivo, 'a+', encoding="utf-8") as arq:
             arq.write("## Gráfico de Pizza das Tags de Issues\n\n")
             arq.write("![Gráfico de Pizza de Issues](pyAnalyticsGit/grafico_pizza.png)\n\n")
 
-        grafico_milestone = GraficoMilestone()
-        grafico_milestone.criar_grafico_milestones()
+        grafico.criar_grafico_milestones()
 
         with open(self.nome_arquivo, 'a+', encoding="utf-8") as arq:
             arq.write("# Milestones\n\n")
             arq.write("## Gráfico de Milestones\n\n")
             arq.write("![Gráfico de Milestones](pyAnalyticsGit/grafico_milestone.png)\n\n")
 
-        tabela_milestone = TabelaMilestone()
-        tabela_milestone.criar_tabela_milestone(self.nome_arquivo)         
+        tabela.criar_tabela_milestone(self.nome_arquivo)         
 
 relatorio = Relatorio()
 relatorio.gerar_relatorio()  
-
-   #def exec_issues(self):
-            #obj_issue = Issue()
-            #obj_issue.listar_issue()
-
-    #def exec_milestones(self):
-            #obj_milestone = Milestone()
-            #obj_milestone.list_milestone()
-
-    #def exec_commits(self):
-            #obj_commits = Commits()
-            #obj_commits.listar_commits()
