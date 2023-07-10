@@ -1,6 +1,6 @@
 import os
 from commit import Commits
-from connect import api_user,api_name
+from pyAnalyticsGit.analyticsgit.connect import api_user,api_name
 from issue import Issue
 from milestone import Milestone
 

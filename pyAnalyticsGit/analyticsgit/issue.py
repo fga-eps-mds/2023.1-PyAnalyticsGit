@@ -1,7 +1,7 @@
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import os
-from connect import Connect,api_name,api_user
+from pyAnalyticsGit.analyticsgit.connect import Connect,api_name,api_user
 
 diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
 

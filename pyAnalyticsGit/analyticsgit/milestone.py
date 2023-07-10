@@ -2,7 +2,7 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 import os
 from datetime import datetime
-from connect import Connect,api_user,api_name
+from pyAnalyticsGit.analyticsgit.connect import Connect,api_user,api_name
 
 diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
 
