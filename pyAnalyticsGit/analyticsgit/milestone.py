@@ -4,7 +4,8 @@ import os
 from datetime import datetime
 from pyAnalyticsGit.analyticsgit.connect import Connect,api_user,api_name
 
-diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+# diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+diretorio_raiz = os.getcwd()
 
 nome_pasta = "docs"
 grafico_milestone = 'grafico_milestone.png'

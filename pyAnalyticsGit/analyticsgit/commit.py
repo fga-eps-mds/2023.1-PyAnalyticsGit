@@ -4,7 +4,9 @@ from wordcloud import STOPWORDS, WordCloud
 import os
 from pyAnalyticsGit.analyticsgit.connect import Connect,api_name,api_user
 
-diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+# diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+diretorio_raiz = os.getcwd()
+
 
 nome_pasta = "docs"
 grafico = 'grafico.png'

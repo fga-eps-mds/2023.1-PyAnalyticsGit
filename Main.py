@@ -2,4 +2,9 @@
     Teste de funcionamento a partir do importante
      Modelo de utilização do usuário'''
 
-import pyAnalyticsGit
+from pyAnalyticsGit.analyticsgit.automatizar import Automatizar
+from pyAnalyticsGit.analyticsgit.relatorio import Relatorio
+
+# Automatizar.automatiza()
+Relatorio.gerar_relatorio()
+
