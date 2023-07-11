@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/2023.1-PyAnalyticsGit/static/css/main.d9cd0416.chunk.css",
-    "main.js": "/2023.1-PyAnalyticsGit/static/js/main.eff85067.chunk.js",
-    "main.js.map": "/2023.1-PyAnalyticsGit/static/js/main.eff85067.chunk.js.map",
+    "main.js": "/2023.1-PyAnalyticsGit/static/js/main.5f18d913.chunk.js",
+    "main.js.map": "/2023.1-PyAnalyticsGit/static/js/main.5f18d913.chunk.js.map",
     "runtime-main.js": "/2023.1-PyAnalyticsGit/static/js/runtime-main.baa42654.js",
     "runtime-main.js.map": "/2023.1-PyAnalyticsGit/static/js/runtime-main.baa42654.js.map",
     "static/js/2.c4c0c11a.chunk.js": "/2023.1-PyAnalyticsGit/static/js/2.c4c0c11a.chunk.js",
     "static/js/2.c4c0c11a.chunk.js.map": "/2023.1-PyAnalyticsGit/static/js/2.c4c0c11a.chunk.js.map",
     "index.html": "/2023.1-PyAnalyticsGit/index.html",
-    "precache-manifest.2d19b6068d06374652c11d82d00b3234.js": "/2023.1-PyAnalyticsGit/precache-manifest.2d19b6068d06374652c11d82d00b3234.js",
+    "precache-manifest.2ac25609174130de2fc34ff5a25bbcdc.js": "/2023.1-PyAnalyticsGit/precache-manifest.2ac25609174130de2fc34ff5a25bbcdc.js",
     "service-worker.js": "/2023.1-PyAnalyticsGit/service-worker.js",
     "static/css/main.d9cd0416.chunk.css.map": "/2023.1-PyAnalyticsGit/static/css/main.d9cd0416.chunk.css.map",
     "static/media/index.css": "/2023.1-PyAnalyticsGit/static/media/Montserrat-Regular.ee653992.ttf",
@@ -56,6 +56,6 @@
     "static/js/runtime-main.baa42654.js",
     "static/js/2.c4c0c11a.chunk.js",
     "static/css/main.d9cd0416.chunk.css",
-    "static/js/main.eff85067.chunk.js"
+    "static/js/main.5f18d913.chunk.js"
   ]
 }

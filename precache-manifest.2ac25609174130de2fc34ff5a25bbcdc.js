@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17d74fe98f44fbc1d7f7696f18a14c2b",
+    "revision": "78511373c626a3da78b4442b6d84b232",
     "url": "/2023.1-PyAnalyticsGit/index.html"
   },
   {
-    "revision": "844b2bbc728b2b09b425",
+    "revision": "84d8f64c4a1a03fd70e7",
     "url": "/2023.1-PyAnalyticsGit/static/css/main.d9cd0416.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2023.1-PyAnalyticsGit/static/js/2.c4c0c11a.chunk.js"
   },
   {
-    "revision": "844b2bbc728b2b09b425",
-    "url": "/2023.1-PyAnalyticsGit/static/js/main.eff85067.chunk.js"
+    "revision": "84d8f64c4a1a03fd70e7",
+    "url": "/2023.1-PyAnalyticsGit/static/js/main.5f18d913.chunk.js"
   },
   {
     "revision": "a434c0c535b9b2dca3c3",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/2023.1-PyAnalyticsGit/precache-manifest.2d19b6068d06374652c11d82d00b3234.js"
+  "/2023.1-PyAnalyticsGit/precache-manifest.2ac25609174130de2fc34ff5a25bbcdc.js"
 );
 
 self.addEventListener('message', (event) => {
