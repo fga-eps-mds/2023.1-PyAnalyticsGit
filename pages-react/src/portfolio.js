@@ -7,13 +7,13 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "PyAnalytics Git",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "PyAnalytics Git Pages",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://github.com/fga-eps-mds/2023.1-PyAnalyticsGit",
   },
 };
 
@@ -416,17 +416,15 @@ const certifications = {
       title: "Gabriel Barbosa",
       subtitle: "- Estudante da UnB",
       logo_path: "https://avatars.githubusercontent.com/u/105024303?v=4",
-      certificate_link:
-        "https://github.com/gabrie1barbosa",
+      certificate_link: "https://github.com/gabrie1barbosa",
       alt_name: "Gabriel Barbosa",
       color_code: "#8C151599",
-    }, 
+    },
     {
       title: "Jefferson Sena",
       subtitle: "- Estudante da UnB",
       logo_path: "https://avatars.githubusercontent.com/u/73854228?v=4",
-      certificate_link:
-        "https://github.com/JeffersonSenaa",
+      certificate_link: "https://github.com/JeffersonSenaa",
       alt_name: "Jefferson Sena",
       color_code: "#00000099",
     },
@@ -435,8 +433,7 @@ const certifications = {
       title: "Mateus Levy",
       subtitle: "- Estudante da UnB",
       logo_path: "https://avatars.githubusercontent.com/u/70410544?v=4",
-      certificate_link:
-        "https://github.com/mateus9levy",
+      certificate_link: "https://github.com/mateus9levy",
       alt_name: "Mateus Levy",
       color_code: "#0C9D5899",
     },
@@ -444,8 +441,7 @@ const certifications = {
       title: "Pedro Henrique",
       subtitle: "- Estudante da UnB",
       logo_path: "https://avatars.githubusercontent.com/u/100311889?v=4",
-      certificate_link:
-      "https://github.com/PedroHhenriq",
+      certificate_link: "https://github.com/PedroHhenriq",
       alt_name: "Pedro Henrique",
       color_code: "#1F70C199",
     },
@@ -453,8 +449,7 @@ const certifications = {
       title: "Rodrigo Fonseca",
       subtitle: "- Estudante da UnB",
       logo_path: "https://avatars.githubusercontent.com/u/98030427?v=4",
-      certificate_link:
-        "https://github.com/rodfon3301",
+      certificate_link: "https://github.com/rodfon3301",
       alt_name: "Rodrigo Fonseca",
       color_code: "#D83B0199",
     },
@@ -462,12 +457,10 @@ const certifications = {
       title: "Tiago Albuquerque",
       subtitle: "- Estudante da UnB",
       logo_path: "https://avatars.githubusercontent.com/u/98188815?v=4",
-      certificate_link:
-        "https://github.com/Tiago1604",
+      certificate_link: "https://github.com/Tiago1604",
       alt_name: "Tiago Albuquerque",
       color_code: "#1F70C199",
     },
-  
   ],
 };
 
