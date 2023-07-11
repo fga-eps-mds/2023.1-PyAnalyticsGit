@@ -2,7 +2,7 @@
   "private": true,
   "name": "py_analytics_git",
   "version": "0.1.0",
-  "homepage": "https://mateus9levy.github.io/gitanalipy-react",
+  "homepage": "https://fga-eps-mds.github.io/2023.1-PyAnalyticsGit/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
