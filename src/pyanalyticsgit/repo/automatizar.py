@@ -85,6 +85,7 @@ class Automatizar:
     def automacao_windows():
         Automatizar.encontra_path_biblioteca()
         Automatizar.verifica_arquivo_git()
+        Automatizar.encontra_path_python()
         diretorio_hooks = f'{Automatizar.caminho_repositorio}/hooks'
         #Path do Python
         Automatizar.comando_post_commit = f'''{Automatizar.path_python} {Automatizar.localizacao_monitoramento}'''

@@ -2,7 +2,7 @@ from .repo.automatizar import Automatizar
 from pathlib import Path
 
 def test_encontra_path_biblioteca(monkeypatch):
-    teste_path = "/Users/runner/work/2023.1-PyAnalyticsGit/2023.1-PyAnalyticsGit/pyAnalyticsGit/monitoramento.py"
+    teste_path = "/Users/runner/work/2023.1-PyAnalyticsGit/2023.1-PyAnalyticsGit/src/pyanalyticsgit/monitoramento.py"
     def mock_home():
         return Path(teste_path)
     monkeypatch.setattr(Path, "home", mock_home)

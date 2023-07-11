@@ -1,9 +1,8 @@
-from src.pyanalyticsgit.repo.automatizar import Automatizar
+from .repo.automatizar import Automatizar
 from pathlib import Path
 
 def test_encontra_path_biblioteca(monkeypatch):
-    # teste_path = "/home/runner/work/2023.1-PyAnalyticsGit/2023.1-PyAnalyticsGit/pyAnalyticsGit/monitoramento.py"
-    teste_path = "/home/jefferson/unb/mds/projeto_mds/2023.1-PyAnalyticsGit/src/pyanalyticsgit/monitoramento.py"
+    teste_path = "/home/runner/work/2023.1-PyAnalyticsGit/2023.1-PyAnalyticsGit/src/pyanalyticsgit/monitoramento.py"
     def mock_home():
         return Path(teste_path)
     monkeypatch.setattr(Path, "home", mock_home)
@@ -11,8 +10,7 @@ def test_encontra_path_biblioteca(monkeypatch):
     assert resultado == teste_path
 
 def test_verifica_arquivo_git(monkeypatch):
-    # teste_git = "/home/runner/work/2023.1-PyAnalyticsGit/2023.1-PyAnalyticsGit/.git"
-    teste_git = "/home/jefferson/unb/mds/projeto_mds/2023.1-PyAnalyticsGit/.git"
+    teste_git = "/home/runner/work/2023.1-PyAnalyticsGit/2023.1-PyAnalyticsGit/.git"
     def mock_home():
         return Path(teste_git)
     monkeypatch.setattr(Path, "home", mock_home)
