@@ -1,1 +1,0 @@
-from pyAnalyticsGit.analyticsgit import *

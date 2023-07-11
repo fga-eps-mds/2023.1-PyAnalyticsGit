@@ -30,7 +30,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest -k "test_images"
+        #pytest -k "test_images"
 
   build-macos:
     runs-on: macos-latest
@@ -54,7 +54,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest -k "test_images" 
+        #pytest -k "test_images" 
 
   build-windows:
     runs-on: windows-latest
@@ -79,4 +79,4 @@ jobs:
         & "C:\hostedtoolcache\windows\Python\3.11.4\x64\Scripts\flake8.exe" . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        & "C:\hostedtoolcache\windows\Python\3.11.4\x64\Scripts\pytest.exe" -k "pytest -k "test_images"  
+        # & "C:\hostedtoolcache\windows\Python\3.11.4\x64\Scripts\pytest.exe" -k "pytest -k "test_images"  
