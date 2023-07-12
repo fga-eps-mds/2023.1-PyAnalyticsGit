@@ -5,7 +5,7 @@
 ## Descrição do Produto
 
 
-O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de Software, sendo uma biblioteca capaz de gerar relatórios de repositórios do Github. A biblioteca deverar ser capaz de interagir com o git, analisar o dessempenho do projeto, gerar relatórios automatizados e conter informações detalhadas do repositorio.  
+O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de Software, sendo uma biblioteca capaz de gerar relatórios de repositórios do Github. A biblioteca deverar ser capaz de interagir com o git, analisar o dessempenho do projeto, gerar relatórios automatizados e conter dados do repositório por meio de tabelas e gráficos. 
 
 
 ## Objetivo:
@@ -26,12 +26,6 @@ Ela fornece um mapa para o desenvolvimento do projeto, destacando as partes que 
  Além disso, possui uma grande biblioteca padrão e uma comunidade ativa de desenvolvedores, o que permite a criação rápida de soluções para diferentes problemas.
 ##
 
-## GitPython
-GitPython é uma biblioteca python usada para interagir com repositórios git, 
-Ele fornece abstrações de objetos git para facilitar o acesso aos dados do repositório e, adicionalmente, permite que você acesse o
-repositório git mais diretamente usando uma implementação python pura ou o git mais rápido, mas com uso intensivo de recursos
-implementação do comando.
-O GitPython é uma biblioteca poderosa e útil para desenvolvedores que trabalham com o Git e desejam automatizar tarefas comuns ou incorporar o Git em seus fluxos de trabalho de desenvolvimento de software em python.
 ##
 ## API do Github
 é uma interface de programação de aplicativos (API) fornecida pelo GitHub, que permite que desenvolvedores criem aplicativos e serviços que interajam com o GitHub de maneira programática. 
@@ -50,5 +44,13 @@ outros tipos de visualizações. É uma das bibliotecas de visualização de dad
 O PyPI (Python Package Index) é o repositório oficial de pacotes da linguagem de programação python. Ele é um grande arquivo de pacotes python que permite aos desenvolvedores python compartilhar e instalar facilmente pacotes de software em seus projetos.
 Os pacotes python podem ser enviados para o PyPI para serem compartilhados com a comunidade python.
 O PyPI é um recurso valioso para a comunidade Python, pois torna mais fácil e eficiente o compartilhamento e a instalação de pacotes de software em projetos Python.
+##
+## OS 
+A biblioteca OS (Operating System) é uma biblioteca padrão em Python que fornece várias funções e métodos para interagir com o sistema operacional subjacente. Ela permite a execução de operações relacionadas ao sistema de arquivos, manipulação de diretórios, gerenciamento de processos, manipulação de caminhos de arquivos e muitas outras tarefas relacionadas ao sistema operacional.
+##
+## Requests
+A biblioteca Requests é uma poderosa ferramenta em Python para realizar requisições HTTP de forma simples e eficiente. Ela permite enviar solicitações HTTP para servidores e obter respostas, possibilitando a interação com APIs, a obtenção de conteúdo web e a realização de testes de integração.
+## Subprocess 
+A biblioteca Subprocess é uma biblioteca padrão do Python que fornece uma interface para criar, controlar e interagir com processos secundários (subprocessos) do sistema operacional. Ela permite executar comandos externos e controlar a comunicação com esses processos por meio de pipes (tubulações) de entrada e saída.
 
 
