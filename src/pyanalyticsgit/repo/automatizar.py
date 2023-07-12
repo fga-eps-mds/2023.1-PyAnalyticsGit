@@ -35,7 +35,7 @@ class Automatizar:
         diretorio_atual = os.getcwd()   
         Automatizar.caminho_repositorio = os.path.join(diretorio_atual, ".git")
         if os.path.exists(Automatizar.caminho_repositorio):
-            print(f'Arquivo Git: {Automatizar.caminho_repositorio}\n')
+            print(f'Arquivo Git: {Automatizar.caminho_repositorio}')
             return Automatizar.caminho_repositorio
         else:
             print("Arquivo .git do repositório não encontrado.\n")
@@ -49,7 +49,7 @@ class Automatizar:
             Automatizar.path_biblioteca = spec.origin
             Automatizar.localizacao_monitoramento = Automatizar.path_biblioteca[:-11]
             Automatizar.localizacao_monitoramento += "monitoramento.py"
-            print(f'Path da biblioteca: {Automatizar.localizacao_monitoramento}\n')
+            print(f'Path da biblioteca: {Automatizar.localizacao_monitoramento}')
             return Automatizar.localizacao_monitoramento
         except ImportError:
             return None
@@ -59,7 +59,7 @@ class Automatizar:
         """Encontra o path do python para ser adicionado a configuração da automação."""
         try:
             Automatizar.path_python = sys.executable
-            print(f'Path Python: {Automatizar.path_python}')
+            print(f'Path Python: {Automatizar.path_python}\n')
             return Automatizar.path_python
         except ImportError:
             return None
@@ -83,9 +83,9 @@ class Automatizar:
             arquivo.seek(0)  # Posiciona o ponteiro de leitura no início do arquivo
             if Automatizar.comando_post_commit not in arquivo.read():
                 arquivo.write(Automatizar.comando_post_commit)
-                print("Automação do relatório realizado com sucesso.\n")
+                print("Configuração da Automação realizada com sucesso.\n")
             else:
-                print('Ocorreu um erro durante a configuração da automação.\n')
+                print('Configuração da automação não realizada!\n')
 
         subprocess.run(['chmod', '+x', diretorio_post_commit])
 
@@ -108,8 +108,8 @@ class Automatizar:
             arquivo.seek(0)  # Posiciona o ponteiro de leitura no início do arquivo
             if Automatizar.comando_post_commit not in arquivo.read():
                 arquivo.write(Automatizar.comando_post_commit)
-                print("Automação do relatório realizado com sucesso.\n")
+                print("Configuração da Automação realizada com sucesso.\n")
             else:
-                print('Ocorreu um erro durante a configuração da automação.\n')
+                print('Configuração da automação não realizada!\n')
 
         subprocess.run(['chmod', '+x', diretorio_post_commit])
