@@ -32,9 +32,8 @@ Ela fornece um mapa para o desenvolvimento do projeto, destacando as partes que 
 A API do GitHub fornece acesso a todas as funcionalidades do GitHub, incluindo repositórios, issues, pull requests, comentários, colaboradores e muito mais.
 é uma ferramenta poderosa e flexível que pode ajudar os desenvolvedores a automatizar tarefas, integrar o GitHub em seus fluxos de trabalho de desenvolvimento e criar aplicativos personalizados que se integram ao GitHub.
 ##
-## Pandas
-Pandas é uma biblioteca python de código aberto que fornece estruturas de dados e ferramentas para análise de dados em python.
-Além disso, o pandas oferece uma ampla variedade de ferramentas para manipulação e limpeza de dados, incluindo recursos para filtrar, ordenar, agrupar e transformar dados. Ele também permite trabalhar com dados ausentes e tem capacidades de visualização de dados.
+## WordCloud
+Uma biblioteca popular em Python para criar nuvens de palavras é a biblioteca wordcloud. Ela fornece uma interface simples e flexível para gerar visualizações de nuvem de palavras a partir de um texto ou conjunto de textos.A biblioteca wordcloud é baseada nas bibliotecas matplotlib e numpy e oferece recursos para personalização de cores, formas, tamanhos e posicionamento das palavras na nuvem.
 ##
 ## Matplotlib
 Matplotlib é uma biblioteca python, que permite criar gráficos, histogramas, gráficos de barras, scatter plots e muito
