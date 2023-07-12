@@ -13,7 +13,9 @@ grafico_milestone = 'grafico_milestone.png'
 caminho_pasta = os.path.join(diretorio_raiz, nome_pasta)
 
 class Milestone:
+    """Classe para gerar relatório de milestones"""
     def __init__(self, user = api_user, repo = api_name):
+        """Construtor da classe Milestone"""
         connect = Connect()
         self.milestones = connect.connect_milestone(user,repo)
         self.issues = connect.connect_issue(user,repo)
@@ -21,6 +23,7 @@ class Milestone:
         self.caminho_arquivo = os.path.join(caminho_pasta,self.nome_arquivo)
 
     def criar_grafico_milestones(self):
+        """Método que cria o gráfico de milestones"""
         milestone_issues = {}
         for milestone in self.milestones:
             milestone_title = milestone["title"]
@@ -49,6 +52,7 @@ class Milestone:
         plt.close()
 
     def criar_tabela_milestone(self, relatorio_file):
+        """Método que cria a tabela de milestones e issues"""
         milestone_issues = {}
         sprint_issues = {}
 

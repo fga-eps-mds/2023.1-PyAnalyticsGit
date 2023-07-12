@@ -14,10 +14,12 @@ else:
     print(f'O arquivo não existe em {diretorio_atual}')
 
 class Connect:
+    """Classe para conectar com a API do GitHub"""
     def __init__(self):
         pass
 
     def connect_issue(self, user = api_user, repo = api_name):
+        """Método para conectar com a API do GitHub e obter as issues do repositório"""
         page = 1
         per_page = 30
         self.all_issues = []
@@ -46,6 +48,7 @@ class Connect:
         return self.all_issues       
 
     def connect_commit(self, user = api_user, repo = api_name):
+        """Método para conectar com a API do GitHub e obter os commits do repositório"""
         page = 1
         per_page = 30
         self.all_commits = []
@@ -72,6 +75,7 @@ class Connect:
         return self.all_commits
     
     def connect_milestone(self, user = api_user, repo = api_name):
+        """Método para conectar com a API do GitHub e obter os milestones do repositório"""
         url =f'https://api.github.com/repos/{user}/{repo}/milestones?state=all'
         response = requests.get(url)
 
