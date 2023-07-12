@@ -23,7 +23,7 @@ O time foi dividido em Scrum Master, Product Owner e Devs.
 
 ## Arquitetura e Tecnologias utilizadas
 
-A linguagem Python serviu de base para estruturar todo o projeto, que teve um back-end bem definido. De forma geral, a API do github foi utilizada para extrair informações relevantes e bibliotecas como matplotlib, pandas e wordcloud foram usadas para adpata-las aos objetivos..
+A linguagem Python serviu de base para estruturar todo o projeto, que teve um back-end bem definido. De forma geral, a API do github foi utilizada para extrair informações relevantes e bibliotecas como matplotlib, python-dotenv e wordcloud foram usadas para adpata-las aos objetivos..
 
 ## Capacitação do Time
 
