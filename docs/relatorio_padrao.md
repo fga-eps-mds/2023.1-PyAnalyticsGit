@@ -14,9 +14,9 @@
 
 | Membro | Quantidade de Commits |
 | --- | ---: |
-| Gabriel | 13 |
+| Gabriel | 15 |
+| Tiago1604 | 38 |
 | JeffersonSenaa | 50 |
-| Tiago1604 | 36 |
 | PedroHhenriq | 22 |
 | Mateus Levy | 10 |
 | Jefferson Sena | 17 |
@@ -29,6 +29,8 @@
 
 | Commit | Data |
 | --- | --- |
+| adicionando histórico de versão e atualizando backlog | 2023-07-10 |
+| estrutura do relatório técnico | 2023-07-10 |
 | post mortem v1 | 2023-07-09 |
 | ferramentas utilizadas | 2023-07-08 |
 | Adicionando o backlog | 2023-07-08 |
@@ -42,6 +44,49 @@
 | Update SECURITY.md | 2023-05-02 |
 | Update SECURITY.md | 2023-05-02 |
 | Create SECURITY.md | 2023-05-02 |
+
+## Tiago1604
+
+| Commit | Data |
+| --- | --- |
+| Merge branch 'main' of https://github.com/fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-07-10 |
+| Inclusão na main da alteração do relatório... | 2023-07-10 |
+| Merge branch 'main' of https://github.com/fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-06-20 |
+| Correção de erro no except | 2023-06-20 |
+| Create python-app.yml | 2023-06-20 |
+| Merge branch 'main' of https://github.com/fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-06-20 |
+| Teste 2 | 2023-06-19 |
+| teste de automação | 2023-06-19 |
+| Correção de bugs | 2023-06-15 |
+| Criação do metodo de issue na Main | 2023-06-14 |
+| Conexão da classe commit e connect | 2023-06-06 |
+| Criação do .env | 2023-06-06 |
+| Integração das classes issue e relatorio | 2023-06-02 |
+| Teste de automatização para evento de commit | 2023-06-01 |
+| commit de mudanças de testes | 2023-06-01 |
+| Correção de erro no markdown gerado. | 2023-05-30 |
+| Atualização da Classe issue para abrir relatório. | 2023-05-30 |
+| Implementação da classe repositório | 2023-05-29 |
+| Alteração do GitPages | 2023-05-09 |
+| Atualização da função commit | 2023-05-08 |
+| Ajustando a formatação do Markdown | 2023-05-07 |
+| testando markdown | 2023-05-07 |
+| testando | 2023-05-07 |
+| alinhamento do markdown(teste) | 2023-05-07 |
+| teste alinhamento | 2023-05-07 |
+| Criação do formulario em markdown | 2023-05-07 |
+| Update main.py | 2023-05-06 |
+| tenstando conexão com vscode | 2023-05-06 |
+| Inicio da implementação da biblioteca e gitPython. | 2023-05-04 |
+| Rename Index.html to index.html | 2023-05-03 |
+| Update README.md | 2023-05-02 |
+| testando temas do GitPages | 2023-05-02 |
+| Update CODIGO_DE_CONDUTA.md | 2023-04-27 |
+| Update CODIGO_DE_CONDUTA.md | 2023-04-26 |
+| Update CODIGO_DE_CONDUTA.md | 2023-04-26 |
+| Update CODIGO_DE_CONDUTA.md | 2023-04-26 |
+| Rename CODIGO_DE_CONDUTA to CODIGO_DE_CONDUTA.md | 2023-04-26 |
+| Criação do código de conduta | 2023-04-26 |
 
 ## JeffersonSenaa
 
@@ -97,47 +142,6 @@
 | Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-04 |
 | Alteração no arquivo index.html | 2023-05-04 |
 | Criação do Git Pages do projeto em... | 2023-05-03 |
-
-## Tiago1604
-
-| Commit | Data |
-| --- | --- |
-| Merge branch 'main' of https://github.com/fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-06-20 |
-| Correção de erro no except | 2023-06-20 |
-| Create python-app.yml | 2023-06-20 |
-| Merge branch 'main' of https://github.com/fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-06-20 |
-| Teste 2 | 2023-06-19 |
-| teste de automação | 2023-06-19 |
-| Correção de bugs | 2023-06-15 |
-| Criação do metodo de issue na Main | 2023-06-14 |
-| Conexão da classe commit e connect | 2023-06-06 |
-| Criação do .env | 2023-06-06 |
-| Integração das classes issue e relatorio | 2023-06-02 |
-| Teste de automatização para evento de commit | 2023-06-01 |
-| commit de mudanças de testes | 2023-06-01 |
-| Correção de erro no markdown gerado. | 2023-05-30 |
-| Atualização da Classe issue para abrir relatório. | 2023-05-30 |
-| Implementação da classe repositório | 2023-05-29 |
-| Alteração do GitPages | 2023-05-09 |
-| Atualização da função commit | 2023-05-08 |
-| Ajustando a formatação do Markdown | 2023-05-07 |
-| testando markdown | 2023-05-07 |
-| testando | 2023-05-07 |
-| alinhamento do markdown(teste) | 2023-05-07 |
-| teste alinhamento | 2023-05-07 |
-| Criação do formulario em markdown | 2023-05-07 |
-| Update main.py | 2023-05-06 |
-| tenstando conexão com vscode | 2023-05-06 |
-| Inicio da implementação da biblioteca e gitPython. | 2023-05-04 |
-| Rename Index.html to index.html | 2023-05-03 |
-| Update README.md | 2023-05-02 |
-| testando temas do GitPages | 2023-05-02 |
-| Update CODIGO_DE_CONDUTA.md | 2023-04-27 |
-| Update CODIGO_DE_CONDUTA.md | 2023-04-26 |
-| Update CODIGO_DE_CONDUTA.md | 2023-04-26 |
-| Update CODIGO_DE_CONDUTA.md | 2023-04-26 |
-| Rename CODIGO_DE_CONDUTA to CODIGO_DE_CONDUTA.md | 2023-04-26 |
-| Criação do código de conduta | 2023-04-26 |
 
 ## PedroHhenriq
 
@@ -255,33 +259,23 @@
 
 | Autor | Quantidade de Issues |
 | --- | ---: |
-| JeffersonSenaa | 9 |
-| Tiago1604 | 10 |
+| Tiago1604 | 14 |
+| JeffersonSenaa | 10 |
+| gabrie1barbosa | 3 |
 | mateus9levy | 3 |
 | PedroHhenriq | 7 |
-| gabrie1barbosa | 2 |
 | rodfon3301 | 1 |
 
 # Tabela de Issues por Autor com Tags
-
-## JeffersonSenaa
-
-| Título | Número | Estado | Tags |
-| --- | --- | --- | --- |
-| Criar Testes unitáros | 32 | open | Tarefas, important, Backend |
-| Implementação do Modulo para Suporte a Diversos Sistemas Operacionais na Biblioteca | 31 | open | Tarefas, important, Backend |
-| Criação do Pipline de Integração Contínua | 30 | closed | Tarefas, Backend |
-| Criação dos métodos para automatizar a biblioteca | 24 | closed | important, Backend |
-| Criação do UML da Biblioteca | 22 | closed | documentation, Tarefas |
-| Definição da Identidade Visual do Projeto | 19 | closed | documentation |
-| Criação do Template padrão de Issue | 16 | closed | documentation |
-| Criação do Pull_Request Template | 11 | closed | documentation |
-| Estudo/Treinamento Git e GitHub | 9 | closed | Studying, Training |
 
 ## Tiago1604
 
 | Título | Número | Estado | Tags |
 | --- | --- | --- | --- |
+| Correção de erros da biblioteca no PyPI | 38 | closed | bug, important, Backend |
+| Corrigir erros nas variáveis de ambiente | 37 | closed | bug, important, Backend |
+| Criação do relatório em pasta docs | 36 | closed | enhancement, important, Backend |
+| Relatório gerado a partir do método(sem automação) | 35 | closed | enhancement, important, Backend |
 | Criação de método para contagem de Issues | 29 | closed | Tarefas, important, Backend |
 | Erros na Classe Issue | 25 | closed | bug, Tarefas, important |
 | Estudo da API do github | 21 | closed | important, Studying, Training |
@@ -292,6 +286,29 @@
 | Definição do Escopo do projeto | 12 | closed | documentation, Tarefas, important |
 | Adição do Código de conduta | 10 | closed | Documento/Planilha, important |
 | Estudo/Treinamento de Scrum | 6 | closed | important, Studying, Training |
+
+## JeffersonSenaa
+
+| Título | Número | Estado | Tags |
+| --- | --- | --- | --- |
+| Empacotamento e distroibuição da biblioteca no PyPI | 34 | closed | Backend |
+| Criar Testes unitáros | 32 | open | Tarefas, important, Backend |
+| Implementação do Modulo para Suporte a Diversos Sistemas Operacionais na Biblioteca | 31 | closed | Tarefas, important, Backend |
+| Criação do Pipline de Integração Contínua | 30 | closed | Tarefas, Backend |
+| Criação dos métodos para automatizar a biblioteca | 24 | closed | important, Backend |
+| Criação do UML da Biblioteca | 22 | closed | documentation, Tarefas |
+| Definição da Identidade Visual do Projeto | 19 | closed | documentation |
+| Criação do Template padrão de Issue | 16 | closed | documentation |
+| Criação do Pull_Request Template | 11 | closed | documentation |
+| Estudo/Treinamento Git e GitHub | 9 | closed | Studying, Training |
+
+## gabrie1barbosa
+
+| Título | Número | Estado | Tags |
+| --- | --- | --- | --- |
+| Criação de documentos restantes | 33 | open | documentation, Tarefas |
+| Estudo subprocess e automatização  | 23 | closed |  |
+| Preparo para apresentação R1 | 17 | closed | Tarefas |
 
 ## mateus9levy
 
@@ -312,13 +329,6 @@
 | Planilha para organização de horários e ponto de controle | 3 | closed | Documento/Planilha |
 | Definição de horário para as reuniões | 2 | closed | Tarefas |
 | Proposta de temas  | 1 | closed | Tarefas |
-
-## gabrie1barbosa
-
-| Título | Número | Estado | Tags |
-| --- | --- | --- | --- |
-| Estudo subprocess e automatização  | 23 | closed |  |
-| Preparo para apresentação R1 | 17 | closed | Tarefas |
 
 ## rodfon3301
 
@@ -352,12 +362,15 @@
 | Sprint 1 | 5 | Estudo/Treinamento Git e GitHub, Estudo/Treinamento Levantamento de Requisitos, Estudo/Treinamento - Python , Estudo/Treinamento de Scrum, Planilha de Conhecimentos |
 | Sprint 2 | 2 | Criação do Pull_Request Template, Adição do Código de conduta |
 | Sprint 3 | 2 | Levantamento de Requisitos, Definição do Escopo do projeto |
-| Sprint 4 | 2 | Criação do Template padrão de Issue, Git Pages  |
-| Sprint 5 | 2 | Definição da Identidade Visual do Projeto, Definição da Arquitetura |
+| Sprint 4 | 3 | Criação do Template padrão de Issue, Git Pages , Implementação básica para a R1 |
+| Sprint 5 | 3 | Definição da Identidade Visual do Projeto, Definição da Arquitetura, Preparo para apresentação R1 |
 | Sprint 6 | 2 | Estudo da API do github, Visão de Produto |
-| Sprint 7 | 1 | Criação do UML da Biblioteca |
-| Sprint 08  | 2 | Criação das classes dos gráficos e tabelas, Criação dos métodos para automatizar a biblioteca |
-| Sprint 09 | 2 | Criação do Pipline de Integração Contínua, Criação de método para contagem de Issues |
+| Sprint 7 | 2 | Estudo subprocess e automatização , Criação do UML da Biblioteca |
+| Sprint 08  | 3 | Criação das classes dos gráficos e tabelas, Erros na Classe Issue, Criação dos métodos para automatizar a biblioteca |
+| Sprint 09 | 3 | Criação do Pipline de Integração Contínua, Criação de método para contagem de Issues, Adicionar try-except na classe Connect |
 | Sprint 10 | 2 | Criar Testes unitáros, Implementação do Modulo para Suporte a Diversos Sistemas Operacionais na Biblioteca |
-| Sprint 11 | 0 |  |
+| Sprint 11 | 2 | Criação de documentos restantes, Atualizar Github-pages |
+| Sprint 12 | 0 |  |
+| Sprint 13 | 2 | Criação do relatório em pasta docs, Relatório gerado a partir do método(sem automação) |
+| Sprint 14 | 3 | Correção de erros da biblioteca no PyPI, Corrigir erros nas variáveis de ambiente, Empacotamento e distroibuição da biblioteca no PyPI |
 

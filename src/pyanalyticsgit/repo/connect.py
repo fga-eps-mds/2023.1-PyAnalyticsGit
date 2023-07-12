@@ -2,10 +2,16 @@ import requests
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+diretorio_atual = os.getcwd()
+arquivo_env = os.path.join(diretorio_atual,'.env')
 
-api_user = os.getenv("user_name")
-api_name = os.getenv("repo_name")
+load_dotenv(arquivo_env)
+
+if os.path.exists(arquivo_env):
+    api_user = os.getenv("user_name")
+    api_name = os.getenv("repo_name")
+else:
+    print(f'O arquivo não existe em {diretorio_atual}')
 
 class Connect:
     def __init__(self):
@@ -28,7 +34,6 @@ class Connect:
                     break
                 else:
                     page += 1
-               
 
             else:
                 print(f'Falha ao obter os detalhes do repositório {repo}.')

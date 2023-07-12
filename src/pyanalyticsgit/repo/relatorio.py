@@ -1,13 +1,13 @@
 import os
-from commit import Commits
-from connect import api_user,api_name
-from issue import Issue
-from milestone import Milestone
+from .commit import Commits
+from .connect import api_name, api_user
+from .issue import Issue
+from .milestone import Milestone
 
-diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+# diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+diretorio_raiz = os.getcwd()
 
 nome_pasta = "docs"
-
 
 caminho_pasta = os.path.join(diretorio_raiz, nome_pasta)
 
@@ -83,10 +83,6 @@ class Relatorio:
             arq.write("</div>\n\n")
 
         grafico_tabela_milestone.criar_tabela_milestone(self.caminho_arquivo)
-
-
-relatorio = Relatorio()
-relatorio.gerar_relatorio()  
     
                     
 

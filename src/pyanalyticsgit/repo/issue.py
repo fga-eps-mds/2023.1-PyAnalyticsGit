@@ -1,9 +1,11 @@
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import os
-from connect import Connect,api_name,api_user
+from .connect import Connect,api_name,api_user
 
-diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+# diretorio_raiz = os.path.abspath(os.path.dirname(__file__))
+diretorio_raiz = os.getcwd()
+
 
 nome_pasta = "docs"
 grafico_issue = 'grafico_issue.png'
