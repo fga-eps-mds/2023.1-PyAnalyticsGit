@@ -2,7 +2,7 @@ name: Python application
 
 on:
   push:
-    branches: [ "teste_unitario/pipeline" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read

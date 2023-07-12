@@ -5,6 +5,7 @@ import platform
 import sys
 
 class Automatizar:
+    """Realiza a configuração da automação gerando relatório a cada commit."""
     caminho_repositorio = str
     path_biblioteca = str
     localizacao_monitoramento = str
@@ -18,6 +19,7 @@ class Automatizar:
 
     @staticmethod
     def automatiza():
+        """Verifica o Sistema Operacional que está sendo utilizado."""
         sistema = platform.system()
         if sistema == 'Linux' or sistema == 'Darwin':
             Automatizar.automacao_unix()
@@ -28,6 +30,8 @@ class Automatizar:
         
     @staticmethod
     def verifica_arquivo_git():
+        """Verifica se o terminal que está executando é um repositório.
+            Faz isso verificando a existência do arquivo .git no diretório."""
         diretorio_atual = os.getcwd()   
         Automatizar.caminho_repositorio = os.path.join(diretorio_atual, ".git")
         if os.path.exists(Automatizar.caminho_repositorio):
@@ -39,6 +43,7 @@ class Automatizar:
     
     @staticmethod
     def encontra_path_biblioteca():
+        """Encontra o path da biblioteca pyanalyticsgit e modifica gerando o path do módulo de monitoramento."""
         try:
             spec = importlib.util.find_spec(Automatizar.nome_biblioteca)
             Automatizar.path_biblioteca = spec.origin
@@ -51,6 +56,7 @@ class Automatizar:
         
     @staticmethod
     def encontra_path_python():
+        """Encontra o path do python para ser adicionado a configuração da automação."""
         try:
             Automatizar.path_python = sys.executable
             print(f'Path Python: {Automatizar.path_python}')
@@ -60,6 +66,8 @@ class Automatizar:
         
     @staticmethod
     def automacao_unix():
+        """Realiza a configuração da automação em sistemas baseados no Unix. 
+            Este método ativa o módulo de monitoramanto por meio do evento post-commit do .git/hooks."""
         Automatizar.encontra_path_biblioteca()
         Automatizar.verifica_arquivo_git()
         Automatizar.encontra_path_python()
@@ -83,6 +91,8 @@ class Automatizar:
 
     @staticmethod
     def automacao_windows():
+        """Realiza a configuração da automação em sistemas Windows. 
+            Este método ativa o módulo de monitoramanto por meio do evento post-commit do .git/hooks."""
         Automatizar.encontra_path_biblioteca()
         Automatizar.verifica_arquivo_git()
         Automatizar.encontra_path_python()
