@@ -51,4 +51,5 @@ Foi bom reforçar a importância que o trabalho em grupo bem organizado tem no d
 
 + Rodrigo:
 
-+ Tiago:
++ Tiago: _"É, até o momento, a disciplina que mais impactou meu processo de aprendizagem e fez com que eu tivesse que aprender diversas habilidades novas e que serão muito úteis no futuro.
+  Habilidades estas que vão desde soft skills a hard skills, como melhorar a organização/comunicação em grupo e aprendizado técnico."_
