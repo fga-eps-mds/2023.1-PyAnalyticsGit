@@ -47,7 +47,7 @@ Foi bom reforçar a importância que o trabalho em grupo bem organizado tem no d
 
 + Mateus:
 
-+ Pedro:
++ Pedro: "Acredito ter sido uma experiência enriquecedora em muitos aspectos, tanto em relação aos aprendizados quanto à experiência de trabalho em equipe. Através da disciplina, pude desenvolver diversas habilidades, obter novos conhecimentos e superar desafios junto aos meus colegas. "
 
 + Rodrigo:
 
