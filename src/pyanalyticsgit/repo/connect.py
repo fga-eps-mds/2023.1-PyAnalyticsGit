@@ -5,13 +5,16 @@ import os
 diretorio_atual = os.getcwd()
 arquivo_env = os.path.join(diretorio_atual,'.env')
 
+api_user = ""
+api_name = ""
+
 load_dotenv(arquivo_env)
 
 if os.path.exists(arquivo_env):
     api_user = os.getenv("user_name")
     api_name = os.getenv("repo_name")
 else:
-    print(f'O arquivo não existe em {diretorio_atual}')
+    print(f'Caso queira automatizar os commits insira o arquivo .env no diretório {diretorio_atual}')
 
 class Connect:
     def __init__(self):
