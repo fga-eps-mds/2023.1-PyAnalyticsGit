@@ -14,13 +14,16 @@ grafico_pizza = 'grafico_pizza.png'
 caminho_pasta = os.path.join(diretorio_raiz, nome_pasta)
 
 class Issue:
+    """Classe para gerar gráficos e tabelas de issues"""
     def __init__(self, user = api_user, repo = api_name):
+        """Construtor da classe Issue"""
         connect = Connect()
         self.issues = connect.connect_issue(user,repo)
         self.nome_arquivo = 'relatorio_padrao.md'
         self.caminho_arquivo = os.path.join(caminho_pasta,self.nome_arquivo)
 
     def criar_grafico_pizza(self):
+        """Método que cria um gráfico de pizza com as tags das issues"""
         label_count = defaultdict(int)
         total_issues = len(self.issues)
 
@@ -46,6 +49,7 @@ class Issue:
         plt.close()
 
     def criar_grafico_issue(self):
+        """Método que cria um gráfico de barras com a quantidade de issues por autor"""
         issue_authors = defaultdict(int)
         for issue in self.issues:
             author = issue["user"]["login"]
@@ -67,7 +71,7 @@ class Issue:
         plt.close()
 
     def criar_tabela_issue(self, relatorio_file):
-        # Tabela de quantidade issues por autor
+        """Método que cria uma tabela com as issues por autor"""
         issue_count = {}
         for issue in self.issues:
             author = issue["user"]["login"]
