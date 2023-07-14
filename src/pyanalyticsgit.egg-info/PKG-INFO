@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: pyanalyticsgit
-Version: 0.0.3
+Version: 0.0.5
 Summary: Biblioteca PyAnalyticsGit para gerar relatórios Git.
 Home-page: UNKNOWN
-Author: Jefferson Sena
-Author-email: jeffersonsena12144@gmail.com
+Author: Gabriel Barbosa, Jefferson Sena, Mateus Levy, Pedro Henrique, Rodrigo Fonseca, Tiago Albuquerque
+Author-email: gabrielb.alencarr@gmail.com, jeffersonsena12144@gmail.com, mateuslevy06@gmail.com, pedrolulhenrique@gmail.com, Rodrigofonseca399@gmail.com, tiago28973@gmail.com 
 License: MIT License
 Keywords: pyAnalyticsGit
 Platform: UNKNOWN

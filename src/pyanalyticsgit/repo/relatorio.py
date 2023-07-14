@@ -16,7 +16,7 @@ class Relatorio:
     def __init__(self):
         """Construtor da classe Relatorio"""
         self.nome_arquivo = "relatorio_padrao.md"
-        self.titulo = "# PyAnalyticsGit - Relatório automatizado"
+        self.titulo = "# Relatório dos dados do Repositório"
         if not os.path.exists(caminho_pasta):
             os.makedirs(caminho_pasta)
         self.caminho_arquivo = os.path.join(caminho_pasta, self.nome_arquivo)
@@ -87,5 +87,3 @@ class Relatorio:
 
         grafico_tabela_milestone.criar_tabela_milestone(self.caminho_arquivo)
     
-                    
-
