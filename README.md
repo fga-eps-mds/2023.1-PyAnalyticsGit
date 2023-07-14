@@ -141,8 +141,3 @@ O PyAnalyticsGit é licenciado sob o MIT License. [licença](/LICENSE).
 <div align=>
 <img src="https://user-images.githubusercontent.com/98030427/236968066-315be92b-eabe-4d76-a5d7-bbaaa8df1e2d.png" width="200px" />
 </div>
-
-
-
-
-

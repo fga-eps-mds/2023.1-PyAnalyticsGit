@@ -3,7 +3,6 @@ README.md
 setup.py
 pyanalyticsgit/__init__.py
 pyanalyticsgit/monitoramento.py
-pyanalyticsgit/test_images.py
 pyanalyticsgit/test_linux.py
 pyanalyticsgit/test_macos.py
 pyanalyticsgit/test_windows.py

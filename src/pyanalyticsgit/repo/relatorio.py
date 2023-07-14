@@ -12,9 +12,11 @@ nome_pasta = "docs"
 caminho_pasta = os.path.join(diretorio_raiz, nome_pasta)
 
 class Relatorio:
+    """Classe para gerar relatório de commits, issues e milestones"""
     def __init__(self):
+        """Construtor da classe Relatorio"""
         self.nome_arquivo = "relatorio_padrao.md"
-        self.titulo = "# PyAnalyticsGit - Relatório automatizado"
+        self.titulo = "# Relatório dos dados do Repositório"
         if not os.path.exists(caminho_pasta):
             os.makedirs(caminho_pasta)
         self.caminho_arquivo = os.path.join(caminho_pasta, self.nome_arquivo)
@@ -24,6 +26,7 @@ class Relatorio:
                 arq.write(f'{self.titulo}\n\n')
 
     def gerar_relatorio(self,user = api_user, repo = api_name):
+        """Método que gera o relatório de commits, issues e milestones do repositório e salva em um arquivo .md"""
         if os.path.exists(self.caminho_arquivo):
             os.remove(self.caminho_arquivo)
             
@@ -84,5 +87,3 @@ class Relatorio:
 
         grafico_tabela_milestone.criar_tabela_milestone(self.caminho_arquivo)
     
-                    
-

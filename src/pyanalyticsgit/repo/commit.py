@@ -15,12 +15,15 @@ caminho_pasta = os.path.join(diretorio_raiz, nome_pasta)
 
 
 class Commits:
+    """Classe para gerar gráficos e tabelas de commits"""
     def __init__(self, user = api_user, repo=api_name):
+        """Construtor da classe Commits"""
         connect = Connect()
         self.commits = connect.connect_commit(user,repo)
         self.palavras_ignoradas = ["o","a","e","i","u","de","des","da","das","do","dos","md","para","que"]
 
     def listar_nomes_commits(self):
+        """Método que retorna uma lista com os nomes dos commits"""
         nomes_commits = []
         for commit in self.commits:
             nome_commit = commit["commit"]["message"]
@@ -28,6 +31,7 @@ class Commits:
         return nomes_commits    
 
     def gerar_nuvem_commits(self):
+        """Método que gera uma nuvem de palavras com os nomes dos commits"""
         nomes_commits = self.listar_nomes_commits()
         texto = " ".join(nomes_commits)
 
@@ -49,6 +53,7 @@ class Commits:
         plt.close()    
 
     def criar_grafico_commit(self):
+        """Método que cria um gráfico de barras com os nomes dos autores e a quantidade de commits"""
         commit_authors = defaultdict(int)
         for commit in self.commits:
             author = commit["commit"]["author"]["name"]
@@ -70,7 +75,7 @@ class Commits:
         plt.close()
 
     def criar_tabela_commit(self, relatorio_file):
-        # Tabela de quantidade de commits por membro
+        """Método que cria uma tabela com os nomes dos autores e a quantidade de commits por autor"""
         commit_count = {}
         commit_datas = {}
         for commit in self.commits:
