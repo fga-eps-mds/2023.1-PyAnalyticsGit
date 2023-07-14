@@ -23,7 +23,7 @@ O time foi dividido em Scrum Master, Product Owner e Devs.
 
 ## Arquitetura e Tecnologias utilizadas
 
-A linguagem Python serviu de base para estruturar todo o projeto, que teve um back-end bem definido. De forma geral, a API do github foi utilizada para extrair informações relevantes e bibliotecas como matplotlib, pandas e wordcloud foram usadas para adpata-las aos objetivos..
+A linguagem Python serviu de base para estruturar todo o projeto, que teve um back-end bem definido. De forma geral, a API do github foi utilizada para extrair informações relevantes e bibliotecas como matplotlib, python-dotenv e wordcloud foram usadas para adpata-las aos objetivos..
 
 ## Capacitação do Time
 
@@ -47,8 +47,9 @@ Foi bom reforçar a importância que o trabalho em grupo bem organizado tem no d
 
 + Mateus:
 
-+ Pedro:
++ Pedro: "Acredito ter sido uma experiência enriquecedora em muitos aspectos, tanto em relação aos aprendizados quanto à experiência de trabalho em equipe. Através da disciplina, pude desenvolver diversas habilidades, obter novos conhecimentos e superar desafios junto aos meus colegas. "
 
 + Rodrigo:
 
-+ Tiago:
++ Tiago: _"É, até o momento, a disciplina que mais impactou meu processo de aprendizagem e fez com que eu tivesse que aprender diversas habilidades novas e que serão muito úteis no futuro.
+  Habilidades estas que vão desde soft skills a hard skills, como melhorar a organização/comunicação em grupo e aprendizado técnico."_
