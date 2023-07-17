@@ -47,7 +47,8 @@ class Connect:
                 print(f'Falha ao obter os detalhes do repositório {repo}. Foram feitas muitas requisições.')
                 timestamp = response.headers['X-RateLimit-Reset']
                 tempo_fora = datetime.datetime.fromtimestamp(int(timestamp))
-                print(f'Você poderá voltar a fazer requisições em: {tempo_fora}')
+                tempo_fora_formatado = tempo_fora.strftime("%d-%m-%Y %H:%M:%S")
+                print(f'Você poderá voltar a fazer requisições em: {tempo_fora_formatado}')
                 sys.exit()
     
             else:
@@ -81,7 +82,8 @@ class Connect:
                 print(f'Falha ao obter os detalhes do repositório {repo}. Foram feitas muitas requisições.')
                 timestamp = response.headers['X-RateLimit-Reset']
                 tempo_fora = datetime.datetime.fromtimestamp(int(timestamp))
-                print(f'Você poderá voltar a fazer requisições em: {tempo_fora}')
+                tempo_fora_formatado = tempo_fora.strftime("%d-%m-%Y %H:%M:%S")
+                print(f'Você poderá voltar a fazer requisições em: {tempo_fora_formatado}')
                 sys.exit()
 
             else:
@@ -105,7 +107,8 @@ class Connect:
             print(f'Falha ao obter os detalhes do repositório {repo}. Foram feitas muitas requisições.')
             timestamp = response.headers['X-RateLimit-Reset']
             tempo_fora = datetime.datetime.fromtimestamp(int(timestamp))
-            print(f'Você poderá voltar a fazer requisições em: {tempo_fora}')
+            tempo_fora_formatado = tempo_fora.strftime("%d-%m-%Y %H:%M:%S")
+            print(f'Você poderá voltar a fazer requisições em: {tempo_fora_formatado}')
             sys.exit()
 
         else:

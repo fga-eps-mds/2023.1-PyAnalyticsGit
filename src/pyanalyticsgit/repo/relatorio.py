@@ -86,4 +86,11 @@ class Relatorio:
             arq.write("</div>\n\n")
 
         grafico_tabela_milestone.criar_tabela_milestone(self.caminho_arquivo)
-    
+
+        grafico_tabela_milestone.criar_grafico_miles_tag()
+
+        with open(self.caminho_arquivo, 'a+', encoding="utf-8") as arq:
+            arq.write("## Gráfico de Tags por Milestones\n\n")
+            arq.write("<div align='center'>\n\n")
+            arq.write("![Gráfico de Tags por Milestones](grafico_miles_tag.png)\n\n")
+            arq.write("</div>\n\n")
