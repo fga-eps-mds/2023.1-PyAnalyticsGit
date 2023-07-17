@@ -6,11 +6,11 @@
 
 
 # 📝 Descrição
-O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de Software que tem como funcionalidades, a biblioteca do PyAnalyticsGit possibilita que o usuário consiga gerar relatórios automatizados com base em dados de repositórios do GitHub, tais quais, histórico de commits, nome do commit, branch, tamanho do log, etc...
+O PyAnalyticsGit é um projeto em Python criado por estudantes de Engenharia de Software da Universidade de Brasília - UnB. A biblioteca possibilita que o usuário consiga gerar relatórios automatizados a partir de um commit e com base nos dados do repositórios no GitHub como histórico de commits, nome do commit, branch, milestones e entre outros, gerar um relatório em markdown com gráficos e tabelas.
 
-A biblioteca do PyAnalyticsGit deve ser capaz de analisar o desempenho de um projeto oferecendo no relatório parâmetros como taxa de commit por branch, taxa de commit por tempo, horario recorrente de commit, entre outros.
+A biblioteca do PyAnalyticsGit deve ser capaz de analisar o desempenho de um projeto oferecendo no relatório parâmetros como taxa de commit por branch, fluxo de desenvolvimento por sprint, commits por usuário, entre outros.
 
-Com essa ferramenta, é possível obter uma ampla variedade de dados e análises de projetos e repositórios do Git, incluindo gráficos e estatísticas. A biblioteca funciona recebendo os dados de saída dos comandos do Git e realizando a análise e tratamento dos dados de forma eficiente e precisa. Com essa solução, os usuários podem otimizar seus processos e aprimorar a gestão dos seus projetos do Git.
+Com essa ferramenta, é possível obter uma ampla variedade de dados e análises de projetos e repositórios do Git, incluindo gráficos e estatísticas. A biblioteca funciona recebendo os dados da API do GitHub e realizando a análise e tratamento dos dados de forma eficiente. Com essa solução, os usuários podem otimizar seus processos e aprimorar a gestão dos seus projetos do Git.
 
 ## :dart: Objetivo
 ### Qual é o propósito do PyAnalyticsGit?
@@ -25,27 +25,22 @@ O PyAnalyticsGit tem como objetivo geral fornecer  uma forma automatizada, efici
 ##
 
 ## Fluxo de Instalação e Funcionamento
-***OBS: Os comandos estão configurados em Linux, mas deverá estar para Linux,
-MacOs e Windows***
 
 
 ### Instalação/Introdução
- Breve Descrição da API e da Biblioteca (Funcionamento e Visão de Produto
-Resumido). Inicialmente, é recomendável a utilização de um ambiente virtual, que pode ser
+ Inicialmente, é recomendável a utilização de um ambiente virtual, que pode ser
 criado através do venv:
 
 Digite em seu terminal:
 ```
 python3 -m venv myenv
 ```
-Pronto, Assim sera criado um ambiente virtual chamado "myenv"
+Pronto, assim sera criado um ambiente virtual chamado "myenv"
 
 Para ativar o ambiente:
 ```
 source myenv/bin/activate
 ```
-Agora que o ambiente virtual está devidamente criado, Verifique se o ambiente foi inicializado corretamente (verifique que se o nome
-do ambiente, nesse caso “myenv” está no início do caminho em seu terminal.
 
 ### Instalação da biblioteca
 Vamos começar a instalar a biblioteca com o seguinte comando:
@@ -60,19 +55,16 @@ terminal:
 pip show pyanalyticsgit
 ```
 ### Automação
-Apos a configurado e instalado agora o usuario configura a automação. 
+Após configurado e instalado a biblioteca o usuario poderá configurar a automação. 
 
-O usuário deve executar o arquivo a partir de diretório que contenha .git (de um
-diretório que é repositório)
+O usuário deve executar o arquivo a partir do diretório do Repositório no terminal (o diretório deve possuir o arquivo .git para a correta configuração).
 
 Para verificar se seu diretório é um repositório verifique se tem o arquivo
-“.git”
-- execute no terminal o comando: ls -a (pois o .git é uma pasta oculta) —
-(verificar como é no windows)
+“.git” execute no terminal o comando: ls -a (pois o .git é uma pasta oculta).
 
 Verificado isso deve importar a classe Automatiza:
 ```
-from analyticsgit.automatiza import Automatiza
+from pyanalyticsgit.repo.automatiza import Automatiza
 ```
 Após importar deve chamar o método automatiza():
 ```
@@ -83,23 +75,21 @@ cria o arquivo post-commit para automatizar
 
 
 Ao executar o repositório estará automatizado e a cada commit será gerado um
-relatório.
+relatório em markdown.
 Após executar o método de automação não é necessário executar novamente.
 O usuário deve apagar o método caso for gerar um relatório Estático.
 
 ### Relatório Automatizado
 
-A cada evento de commit o git chama o método de monitoramento que executa
+A cada evento de commit o git chama o scripty de monitoramento que executa
 a criação do relatório.
-- Obs: Toda essa parte é automatizada o usuário so precisa executar os
-métodos de cima e configurar o .env
 
 O relatório gerado estará em um arquivo docs/relatorio.md
 
 - .env:
   - Deve ser criado um arquivo .env no ambiente de utilização da biblioteca e
 definir os valores de ‘user_name’(usuário ou repositório que contém o
-repositório que se quer o relatório) e ‘repo_name’ (repositório desejado)
+repositório que será gerado o relatório) e ‘repo_name’ (repositório desejado)
   - Exemplo no repostirório https://github.com/fga-eps-mds/2023.1-PyAnalyticsGit.git :
 
 - O arquivo ‘.env’ deve estar assim para o exemplo acima:
@@ -111,18 +101,19 @@ repositório que se quer o relatório) e ‘repo_name’ (repositório desejado)
 Gera relatórios de repositórios a partir da função “gerar_relatório” recebendo
 como parâmetros os valores de usuários e/ou repositórios existentes do github:
 
-- Exemplo: https://github.com/fga-eps-mds/2023.1-PyAnalyticsGit.git
-- Utilize o método:
+Para criar o relatório deverá ser importado a classe Relatorio:
 ```
-gerar_relatorio(’fga-eps-mds’,’2023.1-PyAnalyticsGit’)
+from pyanalyticsgit.repo.relatorio import Relatorio
 ```
-- Lembre-se de mudar os parâmetros para o repositório em interesse.
+Ao importar o usuário cria uma instância da classe Relatorio e chama o método:
 
-Caso os parâmetros não sejam fornecidos, o relatório usará os valores das
+- Exemplo: https://github.com/fga-eps-mds/2023.1-PyAnalyticsGit.git
+```
+Relatorio().gerar_relatorio(’fga-eps-mds’,’2023.1-PyAnalyticsGit’)
+```
+
+Caso os parâmetros não sejam fornecidos, o relatório buscará os valores das
 variáveis de ambiente contidas em .env.
-```
-gerar_relatorio()
-```
 
 ##
 # 🤝 Colaboradores
