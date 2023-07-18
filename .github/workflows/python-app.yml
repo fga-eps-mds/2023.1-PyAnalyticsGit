@@ -95,4 +95,4 @@ jobs:
     - name: Test with pytest
       run: |
         & "C:\hostedtoolcache\windows\Python\3.11.4\x64\Scripts\pytest.exe" -k "test_windows"  
-        & "C:\hostedtoolcache\windows\Python\3.11.4\x64\Scripts\pytest.exe"pytest -k "test_graficos" 
+        & "C:\hostedtoolcache\windows\Python\3.11.4\x64\Scripts\pytest.exe" -k "test_graficos" 
