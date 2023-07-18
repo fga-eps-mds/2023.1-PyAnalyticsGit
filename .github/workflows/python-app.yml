@@ -79,11 +79,11 @@ jobs:
       run: |
         py -m pip install --upgrade pip
         py -m pip install flake8 pytest
-        pip install matplotlib --upgrade
-        pip install wordcloud --upgrade
-        pip install requests --upgrade
-        pip install python-dotenv --upgrade
-        pip install setuptools --upgrade
+        py -m pip install matplotlib --upgrade
+        py -m pip install wordcloud --upgrade
+        py -m pip install requests --upgrade
+        py -m pip install python-dotenv --upgrade
+        py -m pip install setuptools --upgrade
         if (Test-Path "requirements.txt") { pip install -r requirements.txt }
         setx PATH "%PATH%;C:\hostedtoolcache\windows\Python\3.11.4\x64\Scripts"
     - name: Lint with flake8
