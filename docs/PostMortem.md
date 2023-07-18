@@ -49,7 +49,7 @@ Foi bom reforçar a importância que o trabalho em grupo bem organizado tem no d
 
 + Pedro: "Acredito ter sido uma experiência enriquecedora em muitos aspectos, tanto em relação aos aprendizados quanto à experiência de trabalho em equipe. Através da disciplina, pude desenvolver diversas habilidades, obter novos conhecimentos e superar desafios junto aos meus colegas. "
 
-+ Rodrigo:
++ Rodrigo: "Acho que esse processo que passamos nos ajudará e muito no curso inteiro, seja ele em questão de conhecimento ou em questão de trabalho em equipe. Essa foi uma das materia que me apresentou muitos desafios novos, que fez com que eu aprendesse muito nesse tempo. 
 
 + Tiago: _"É, até o momento, a disciplina que mais impactou meu processo de aprendizagem e fez com que eu tivesse que aprender diversas habilidades novas e que serão muito úteis no futuro.
   Habilidades estas que vão desde soft skills a hard skills, como melhorar a organização/comunicação em grupo e aprendizado técnico."_
