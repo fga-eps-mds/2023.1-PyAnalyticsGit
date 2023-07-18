@@ -3,6 +3,7 @@ import pytest
 from .repo.commit import Commits
 from .repo.issue import Issue
 from .repo.milestone import Milestone
+from .repo.relatorio import Relatorio
 
 diretorio_raiz = os.getcwd()
 nome_pasta = "docs"
@@ -53,6 +54,16 @@ def test_criar_grafico_milestone():
         obj = Milestone(user,repo)
         obj.criar_grafico_milestones()
         assert os.path.exists(os.path.join(caminho_pasta,'grafico_milestone.png'))
+    except Exception as e:
+        pytest.fail(str(e))
+
+
+
+def test_gerar_relatorio():
+    try:
+        obj = Relatorio()
+        obj.gerar_relatorio(user,repo)
+        assert os.path.exists(os.path.join(caminho_pasta,'relatorio_padrao.md'))
     except Exception as e:
         pytest.fail(str(e))
     
