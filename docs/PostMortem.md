@@ -43,7 +43,7 @@ Foi discutido o fato do grupo estar pecando com o uso metodologia Scrum, onde fo
 + Gabriel: _"O processo de aprendizado nessa matéria foi ótimo, pois tive contato com muitas coisas novas que fazem parte do dia a dia do engenheiro de software.
 Foi bom reforçar a importância que o trabalho em grupo bem organizado tem no desenvolvimento de um projeto."_
 
-+ Jefferson:
++ Jefferson: _"O aprendizado que essa matéria proporcionou foi sem medida. Ampliou meus conhecimentos e proporcionou a experinência do trabalho em equipe. De fato o conhecimento recebido nessa disciplina me acompanharão por toda a carreira."_
 
 + Mateus:
 
