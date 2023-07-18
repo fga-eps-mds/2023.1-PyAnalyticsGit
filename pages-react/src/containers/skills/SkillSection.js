@@ -7,6 +7,7 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import imag from "../../assests/images/32-removebg-preview.png";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -27,10 +28,17 @@ class SkillSection extends Component {
           return (
             <div className="skills-main-div">
               <Fade left duration={2000}>
-                <div className="skills-image-div">
-                  
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
-                </div>
+                {skill.fileName == "Publico_alvo.png" ? (
+                  <>
+                    <img src={imag} width={800} alt="publico Alvo"></img>
+                  </>
+                ) : (
+                  <>
+                    <div className="skills-image-div">
+                      <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                    </div>
+                  </>
+                )}
               </Fade>
 
               <div className="skills-text-div">
@@ -38,9 +46,6 @@ class SkillSection extends Component {
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
-                </Fade>
-                <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
                 <Fade right duration={2000}>
                   <div>

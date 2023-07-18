@@ -23,11 +23,11 @@ const greeting = {
   logo_name: "AshutoshHathidara",
   nickname: "Biblioteca Python que gera relatórios Git",
   subTitle:
-    "A biblioteca Python permite a geração de relatórios Git via linha de comando, fornecendo análises e estatísticas detalhadas dos repositórios. Ela processa e analisa eficientemente os dados de saída do Git, permitindo que os usuários otimizem a gestão de projetos Git.",
+    "A biblioteca Python gera relatórios Git com análises e estatísticas detalhadas, processando eficientemente os dados de saída do Git para otimizar a gestão de projetos.",
   resumeLink:
     "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository: "https://github.com/fga-eps-mds/2023.1-PyAnalyticsGit",
+  githubProfile: "https://github.com/fga-eps-mds/2023.1-PyAnalyticsGit",
 };
 
 const socialMediaLinks = [
@@ -87,14 +87,13 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Funcionalidades",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Geração de relatórios: A ferramenta tem como objetivo gerar relatórios do Git utilizando a saída de comandos em repositórios Git.",
-        "⚡ Relatórios em markdown: A biblioteca é capaz de gerar relatórios em formato markdown, facilitando a visualização e compartilhamento das informações.",
-        "⚡ Gráficos informativos: Além dos relatórios, a ferramenta também é capaz de gerar gráficos contendo informações relevantes do repositório, adicionando uma forma visual de análise.",
-        "⚡ Atualização automática: A biblioteca é projetada para ser executada ao fazer um commit no repositório, permitindo a geração automática de relatórios atualizados com as informações mais recentes.",
-        "⚡ Melhoria da gestão de projetos: Ao fornecer informações detalhadas e atualizadas sobre o repositório, a ferramenta auxilia os usuários a otimizarem seus processos e aprimorarem a gestão dos projetos Git.",
+        "⚡ Extrair informações relevantes de commits, issues e milestones do GitHub.",
+        "⚡ Incluir gráficos e tabelas para apresentar visualmente as informações extraídas.",
+        "⚡ Facilitar o acompanhamento do desenvolvimento do projeto e a tomada de decisões.",
+        "⚡ Gerar relatórios em formato Markdown para facilitar a leitura e compartilhamento.",
       ],
       softwareSkills: [
         {
@@ -133,193 +132,28 @@ const skills = {
         },
       ],
     },
+
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
+      title: "Versatilidade",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
+        "⚡ Geração de relatórios: A ferramenta tem como objetivo gerar relatórios do Git utilizando a saída de comandos em repositórios Git.",
+        "⚡ Relatórios em markdown: A biblioteca é capaz de gerar relatórios em formato markdown, facilitando a visualização e compartilhamento das informações.",
+        "⚡ Atualização automática: A biblioteca é projetada para ser executada ao fazer um commit no repositório, permitindo a geração automática de relatórios atualizados com as informações mais recentes.",
+        "⚡ Melhoria da gestão de projetos: Ao fornecer informações detalhadas e atualizadas sobre o repositório, a ferramenta auxilia os usuários a otimizarem seus processos e aprimorarem a gestão dos projetos Git.",
       ],
     },
+
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Publico Alvo",
+      fileName: "Publico_alvo.png",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+        "⚡ Gestores e líderes de equipe:",
+        " Acompanhar o progresso do projeto. Analisar métricas e estatísticas. Tomar decisões baseadas nos relatórios gerados.",
+        "⚡ Desenvolvedores:",
+        "Obter insights sobre o projeto. Analisar o histórico de commits e issues. Identificar tendências e padrões.",
+        "⚡ Equipes de projeto:",
+        "    Facilitar a comunicação interna.Compartilhar informações sobre o desenvolvimento do projeto.",
       ],
     },
   ],

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
-import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
@@ -31,12 +30,6 @@ export default class Main extends Component {
                 exact
                 render={(props) => (
                   <Experience {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/education"
-                render={(props) => (
-                  <Education {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -74,12 +67,6 @@ export default class Main extends Component {
                 exact
                 render={(props) => (
                   <Experience {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/education"
-                render={(props) => (
-                  <Education {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>
