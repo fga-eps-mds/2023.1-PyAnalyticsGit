@@ -1,4 +1,3 @@
-from collections import defaultdict
 import matplotlib.pyplot as plt
 from wordcloud import STOPWORDS, WordCloud
 import os
@@ -41,7 +40,7 @@ class Commits:
         wordcloud = WordCloud(width=800, height=400, background_color='white', stopwords=stopwords,
                               colormap='viridis', max_words=300).generate(texto)
 
-        plt.figure(figsize=(10, 5))
+        plt.figure(figsize=(14, 8))
         plt.imshow(wordcloud, interpolation='bilinear') 
         plt.axis('off')
         plt.title('Nuvem de palavras com nomes dos Commits')
@@ -54,15 +53,27 @@ class Commits:
 
     def criar_grafico_commit(self):
         """Método que cria um gráfico de barras com os nomes dos autores e a quantidade de commits"""
-        commit_authors = defaultdict(int)
+        authors = {}
         for commit in self.commits:
-            author = commit["commit"]["author"]["name"]
-            commit_authors[author] += 1
+            author_name = commit['commit']['author']['name']
+            author_login = commit['author']['login'] if commit['author'] is not None else ""
 
-        authors = list(commit_authors.keys())
-        commit_numbers = list(commit_authors.values())
+            # Usa o nome do autor como chave para agrupar os commits
+            key = author_name.lower()
+            if key not in authors:
+                authors[key] = {
+                    'name': author_name,
+                    'login': author_login,
+                    'count': 1
+                }
+            else:
+                authors[key]['count'] += 1
 
-        plt.bar(authors, commit_numbers, color='darkred')
+        nicknames = [author['login'] for author in authors.values()]
+        commit_counts = [author['count'] for author in authors.values()]
+
+        plt.figure(figsize=(8, 9))
+        plt.bar(nicknames, commit_counts, color='darkred')
         plt.xlabel('Autores')
         plt.ylabel('Número de Commits', color='darkred')
         plt.title('Gráfico de Commits por Autor', fontsize=16, color='black')
@@ -76,39 +87,40 @@ class Commits:
 
     def criar_tabela_commit(self, relatorio_file):
         """Método que cria uma tabela com os nomes dos autores e a quantidade de commits por autor"""
-        commit_count = {}
-        commit_datas = {}
+        authors = {}
         for commit in self.commits:
-            author = commit["commit"]["author"]["name"]
-            if author in commit_count:
-                commit_count[author] += 1
-                commit_datas[author].append(commit["commit"]["author"]["date"])
+            author_name = commit['commit']['author']['name']
+            author_login = commit['author']['login'] if commit['author'] is not None else ""
+
+            if author_login not in authors:
+                authors[author_login] = {
+                    'name': author_login,
+                    'commits': [],
+                    'count': 1
+                }
             else:
-                commit_count[author] = 1
-                commit_datas[author] = [commit["commit"]["author"]["date"]]    
+                authors[author_login]['count'] += 1
+
+            authors[author_login]['commits'].append(commit)
 
         with open(relatorio_file, "a+", encoding="utf-8") as file:
-            file.write("# Tabela - Quantidade de Commits por Membro\n\n")
-            file.write("| Membro | Quantidade de Commits |\n")
+            file.write("# Tabela - Quantidade de Commits por Autor\n\n")
+            file.write("| Autor | Quantidade de Commits |\n")
             file.write("| --- | ---: |\n")
-            for author, count in commit_count.items():
-                file.write(f"| {author} | {count} |\n")
+            for author_login, data in authors.items():
+                file.write(f"| {data['name']} | {data['count']} |\n")
             file.write("\n")
 
         with open(relatorio_file, "a+", encoding="utf-8") as file:
-            file.write("# Tabela de Commits por Autor\n\n")
-
-            for author in commit_count.keys():
-                file.write(f"## {author}\n\n")
+            for author_login, data in authors.items():
+                file.write("# Tabela de Commits por Autor\n\n")
+                file.write(f"## {data['name']}\n\n")
                 file.write("| Commit | Data |\n")
                 file.write("| --- | --- |\n")
-        
-                author_commits = [commit for commit in self.commits if commit["commit"]["author"]["name"] == author]
-        
-                for commit in author_commits:
+
+                for commit in data['commits']:
                     commit_message = commit["commit"]["message"]
                     commit_date = commit["commit"]["author"]["date"].split("T")[0]
                     commit_resume = " ".join(commit_message.split()[:7]) + "..." if len(commit_message.split()) > 7 else commit_message
                     file.write(f"| {commit_resume} | {commit_date} |\n")
                 file.write("\n")
-            file.write("\n")

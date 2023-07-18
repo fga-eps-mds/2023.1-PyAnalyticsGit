@@ -37,9 +37,9 @@ class Issue:
         percentages = [(count / total_issues) * 100 for count in counts]
         sorted_labels, sorted_percentages = zip(*sorted(zip(labels, percentages), key=lambda x: x[1], reverse=True))
 
-        fig, ax = plt.subplots() 
+        fig, ax = plt.subplots(figsize=(14, 8)) 
         ax.pie(sorted_percentages, labels=sorted_labels, shadow=True, autopct='%1.1f%%', startangle=90)
-        ax.legend(loc='center right', bbox_to_anchor=(1.0, 0.5), fontsize='medium', title='Tags')
+        ax.legend(loc='upper left', fontsize='medium', title='Tags')
         ax.set_title('Grafico de Issues por Tags')
         ax.axis('equal')
         if os.path.exists(os.path.join(caminho_pasta,grafico_pizza)):
@@ -58,6 +58,7 @@ class Issue:
         authors = list(issue_authors.keys())
         issue_numbers = list(issue_authors.values())
 
+        plt.figure(figsize=(8, 9))
         plt.bar(authors, issue_numbers, color='steelblue')
         plt.xlabel('Autores')
         plt.ylabel('Número de Issues', color='steelblue')

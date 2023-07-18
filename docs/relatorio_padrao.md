@@ -10,84 +10,114 @@
 
 </div>
 
-# Tabela - Quantidade de Commits por Membro
+# Tabela - Quantidade de Commits por Autor
 
-| Membro | Quantidade de Commits |
+| Autor | Quantidade de Commits |
 | --- | ---: |
+| JeffersonSenaa | 82 |
+| Tiago1604 | 41 |
 | rodfon3301 | 22 |
 | PedroHhenriq | 27 |
-| Tiago1604 | 40 |
-| Jefferson Sena | 18 |
-| JeffersonSenaa | 56 |
-| Mateus Levy | 13 |
-| Gabriel | 15 |
-| Carla Rocha | 1 |
+| gabrie1barbosa | 16 |
+| mateus9levy | 13 |
+| RochaCarla | 1 |
 
 # Tabela de Commits por Autor
 
-## rodfon3301
+## JeffersonSenaa
 
 | Commit | Data |
 | --- | --- |
-| Update Arquitetura.md | 2023-07-12 |
-| Update README.md | 2023-07-12 |
-| Update README.md | 2023-07-12 |
-| Update README.md | 2023-07-12 |
-| Update README.md | 2023-07-12 |
-| Update README.md | 2023-05-09 |
-| Update README.md | 2023-05-09 |
-| Rename REQUISITOS_E_ARQUITETURA.md to REQUISITOS_E_ARQUITETURA_(LEAN INCEPTION).md | 2023-05-09 |
-| Rename PERSONAS.md to PERSONAS_(LEAN INCEPTION).md | 2023-05-09 |
-| Rename ÉPICOS_E_FEATURES.md to ÉPICOS_E_FEATURES_(LEAN INCEPTION).md | 2023-05-09 |
-| Create ÉPICOS_E_FEATURES.md | 2023-05-09 |
-| Create PERSONAS.md | 2023-05-09 |
-| Rename DOC_REQUISITOS_E_ARQUITETURA.md to REQUISITOS_E_ARQUITETURA.md | 2023-05-09 |
-| Create DOC_REQUISITOS_E_ARQUITETURA.md | 2023-05-09 |
-| Update README.md | 2023-05-09 |
-| Update README.md | 2023-05-09 |
-| Update Arquitetura.md | 2023-05-09 |
-| Update Arquitetura.md | 2023-05-08 |
-| Update and rename ARQUITETURA.md to Arquitetura.md | 2023-05-08 |
-| Update and rename Arquitetura.md to ARQUITETURA.md | 2023-05-06 |
-| Create Arquitetura.md | 2023-05-06 |
-| Update README.md | 2023-05-05 |
+| Modificações no README.md | 2023-07-17 |
+| Merge pull request #46 from fga-eps-mds/doc_modulos Método... | 2023-07-14 |
+| Merge branch 'main' into doc_modulos | 2023-07-14 |
+| Ajustes finais no relatório | 2023-07-14 |
+| Merge branch 'doc_modulos' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit into doc_modulos | 2023-07-13 |
+| Ajuste na classe connect para receber a... | 2023-07-13 |
+| Lançamento da biblioteca pyanalyticsgit versão 0.0.1 | 2023-07-12 |
+| Adição das DocStrings dos métodos de automação. | 2023-07-12 |
+| Merge pull request #39 from fga-eps-mds/teste_unitario/pipeline Implementação... | 2023-07-12 |
+| Ajustes no pipeline. | 2023-07-11 |
+| Ajustes nas classes de testes dis sistemas... | 2023-07-11 |
+| Resolução de conflitos. | 2023-07-11 |
+| Alterações nos pacotes da biblioteca e configuração... | 2023-07-11 |
+| Realizado empacotamento e upload para o PyPi. | 2023-07-11 |
+| Modificações para estruturação do empacotamento. | 2023-07-10 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-20 |
+| Implementação dos elementos gráficos no relatório em... | 2023-06-20 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-15 |
+| Inclusão de Graficos e Nuvem de palavras | 2023-06-15 |
+| Teste 3 de commit gerando evento para... | 2023-06-15 |
+| Teste 2 de commit gerando evento para... | 2023-06-15 |
+| Teste de commit gerando evento para criar... | 2023-06-15 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-15 |
+| Ajuste do Path dos arquivos que configuram... | 2023-06-15 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-15 |
+| Remoção de arquivos temporários e automação dos... | 2023-06-15 |
+| Terceiro teste de automação do biblioteca. A... | 2023-06-15 |
+| Segundo teste de automação da biblioteca | 2023-06-14 |
+| Teste de automação da biblioteca | 2023-06-14 |
+| Implementação do fluxo de automação da biblioteca... | 2023-06-14 |
+| Merge da branch testes para main. Foi... | 2023-06-13 |
+| Implementação de método que busca o caminho... | 2023-06-13 |
+| Implementação do método que verifica o arquivo... | 2023-06-13 |
+| Alteração no arquivo hooks e testes de... | 2023-06-01 |
+| Teste de automatização | 2023-06-01 |
+| Teste de integração | 2023-06-01 |
+| Criação da classe relatório que será a... | 2023-05-31 |
+| Criação da função que gera o caminho... | 2023-05-30 |
+| Implementação da função que autmoatiza commits | 2023-05-29 |
+| Teste | 2023-05-29 |
+| Criação da função que automatiza o relatório... | 2023-05-29 |
+| Implementaçao do pacote estrutura e classe para... | 2023-05-27 |
+| Update index.html | 2023-05-09 |
+| Rename issue_template_padrão.md to issue_template_padrao.md | 2023-05-09 |
+| Atualização no relatório | 2023-05-09 |
+| Inserção de novo gráfico do histórico de... | 2023-05-09 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-09 |
+| Create pull_request.md | 2023-05-09 |
+| Create issue_template_padrão.md | 2023-05-09 |
+| Create bug_report.md | 2023-05-09 |
+| Revert "Rename User_History (LEAN INCEPTION).md to HISTÓRIA_DE_USUARIO... | 2023-05-09 |
+| Inserção de novo gráfico do histórico de... | 2023-05-09 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-09 |
+| Inserção de novo gráfico do histórico de... | 2023-05-09 |
+| Inserção de novo gráfico do histórico de... | 2023-05-09 |
+| Atualização do título do head | 2023-05-09 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-09 |
+| Atualização do diretório | 2023-05-09 |
+| Atualização do diretório | 2023-05-09 |
+| Atualização do diretório do codigo fonte | 2023-05-09 |
+| Implementação inicial das funcionalidades da biblioteca com... | 2023-05-08 |
+| Deletando arquivo de teste da implementação | 2023-05-08 |
+| Inserção do grafico no arquivo markdown. | 2023-05-08 |
+| Implementação inicial do relatório com histórico dos... | 2023-05-08 |
+| Adicionando função para salvar grafico no relatorio... | 2023-05-08 |
+| Adicionando comando para salvar grafico no arquivo... | 2023-05-08 |
+| Update README.md | 2023-05-07 |
+| Update README.md | 2023-05-07 |
+| Inserção de gráfico do número de commits... | 2023-05-07 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-06 |
+| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-04 |
+| Alteração no arquivo index.html | 2023-05-04 |
+| Update main.py | 2023-05-04 |
+| Criação do Git Pages do projeto em... | 2023-05-03 |
+| Edição do caminho do arquivo pull_requeste_template.md | 2023-05-02 |
+| Rename docs/pull_request_template.md to docs/.github/ISSUE_TEMPLATE/pull_request_template.md | 2023-05-02 |
+| Rename docs/bug_report.md to .github/ISSUE_TEMPLATE/bug_report.md | 2023-04-30 |
+| Create issue_template_padrao.md | 2023-04-30 |
+| Criação do bug_report.md | 2023-04-26 |
+| Atualização README.md | 2023-04-26 |
+| Create pull_request_template.md | 2023-04-26 |
+| Edição do Arquivo Readme. Edição dos tópicos... | 2023-04-24 |
 
-## PedroHhenriq
-
-| Commit | Data |
-| --- | --- |
-| Ajustes no Backlog | 2023-07-12 |
-| Update PostMortem.md | 2023-07-12 |
-| Ajustes e Atualização da Arquitetura | 2023-07-12 |
-| Ajustando e atualizando o Escopo | 2023-07-12 |
-| Ajustando o documento da Visão do Produto | 2023-07-12 |
-| Criação do gráfico de pizza e atualização... | 2023-06-19 |
-| Incremento nas classes Gráfico e Nuvem de... | 2023-06-14 |
-| Alteração da classe relatório, nuvem e grafico... | 2023-06-01 |
-| Alteração da classe relatorio, mudança de pasta... | 2023-06-01 |
-| Criação da classe Gráfico e da classe... | 2023-05-31 |
-| Delete Criação do arquivo imagens | 2023-05-09 |
-| Add files via upload | 2023-05-09 |
-| Create Arquivo imagens | 2023-05-09 |
-| Delete Personas.png | 2023-05-09 |
-| Delete Jornadas dos Usuários.png | 2023-05-09 |
-| Delete Requisitos e Arquitetura.png | 2023-05-09 |
-| Delete User_Story.png | 2023-05-09 |
-| Delete Épicos.png | 2023-05-09 |
-| imagens | 2023-05-09 |
-| Update VISAO_DO_PRODUTO.md | 2023-05-08 |
-| Create REQUISITOS.MD | 2023-05-06 |
-| Update VISAO_DO_PRODUTO.md | 2023-05-06 |
-| Update VISAO_DO_PRODUTO.md | 2023-05-01 |
-| Rename Visão do produto.md to VISAO_DO_PRODUTO.md | 2023-04-28 |
-| Create Visão do produto.md | 2023-04-28 |
-| Rename Contribuindo.md to CONTRIBUINDO.md | 2023-04-27 |
-| Create Contribuindo.md | 2023-04-27 |
+# Tabela de Commits por Autor
 
 ## Tiago1604
 
 | Commit | Data |
 | --- | --- |
+| Tratamento para o status_code 403. | 2023-07-13 |
 | Update PostMortem.md | 2023-07-12 |
 | Update PostMortem.md | 2023-07-12 |
 | Merge branch 'main' of https://github.com/fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-07-10 |
@@ -129,91 +159,95 @@
 | Rename CODIGO_DE_CONDUTA to CODIGO_DE_CONDUTA.md | 2023-04-26 |
 | Criação do código de conduta | 2023-04-26 |
 
-## Jefferson Sena
+# Tabela de Commits por Autor
+
+## rodfon3301
 
 | Commit | Data |
 | --- | --- |
-| Merge pull request #39 from fga-eps-mds/teste_unitario/pipeline Implementação... | 2023-07-12 |
-| Update index.html | 2023-05-09 |
-| Rename issue_template_padrão.md to issue_template_padrao.md | 2023-05-09 |
-| Create pull_request.md | 2023-05-09 |
-| Create issue_template_padrão.md | 2023-05-09 |
-| Create bug_report.md | 2023-05-09 |
-| Adicionando função para salvar grafico no relatorio... | 2023-05-08 |
-| Update README.md | 2023-05-07 |
-| Update README.md | 2023-05-07 |
-| Update main.py | 2023-05-04 |
-| Edição do caminho do arquivo pull_requeste_template.md | 2023-05-02 |
-| Rename docs/pull_request_template.md to docs/.github/ISSUE_TEMPLATE/pull_request_template.md | 2023-05-02 |
-| Rename docs/bug_report.md to .github/ISSUE_TEMPLATE/bug_report.md | 2023-04-30 |
-| Create issue_template_padrao.md | 2023-04-30 |
-| Criação do bug_report.md | 2023-04-26 |
-| Atualização README.md | 2023-04-26 |
-| Create pull_request_template.md | 2023-04-26 |
-| Edição do Arquivo Readme. Edição dos tópicos... | 2023-04-24 |
+| Update Arquitetura.md | 2023-07-12 |
+| Update README.md | 2023-07-12 |
+| Update README.md | 2023-07-12 |
+| Update README.md | 2023-07-12 |
+| Update README.md | 2023-07-12 |
+| Update README.md | 2023-05-09 |
+| Update README.md | 2023-05-09 |
+| Rename REQUISITOS_E_ARQUITETURA.md to REQUISITOS_E_ARQUITETURA_(LEAN INCEPTION).md | 2023-05-09 |
+| Rename PERSONAS.md to PERSONAS_(LEAN INCEPTION).md | 2023-05-09 |
+| Rename ÉPICOS_E_FEATURES.md to ÉPICOS_E_FEATURES_(LEAN INCEPTION).md | 2023-05-09 |
+| Create ÉPICOS_E_FEATURES.md | 2023-05-09 |
+| Create PERSONAS.md | 2023-05-09 |
+| Rename DOC_REQUISITOS_E_ARQUITETURA.md to REQUISITOS_E_ARQUITETURA.md | 2023-05-09 |
+| Create DOC_REQUISITOS_E_ARQUITETURA.md | 2023-05-09 |
+| Update README.md | 2023-05-09 |
+| Update README.md | 2023-05-09 |
+| Update Arquitetura.md | 2023-05-09 |
+| Update Arquitetura.md | 2023-05-08 |
+| Update and rename ARQUITETURA.md to Arquitetura.md | 2023-05-08 |
+| Update and rename Arquitetura.md to ARQUITETURA.md | 2023-05-06 |
+| Create Arquitetura.md | 2023-05-06 |
+| Update README.md | 2023-05-05 |
 
-## JeffersonSenaa
+# Tabela de Commits por Autor
+
+## PedroHhenriq
 
 | Commit | Data |
 | --- | --- |
-| Ajustes no pipeline. | 2023-07-11 |
-| Ajustes nas classes de testes dis sistemas... | 2023-07-11 |
-| Resolução de conflitos. | 2023-07-11 |
-| Alterações nos pacotes da biblioteca e configuração... | 2023-07-11 |
-| Realizado empacotamento e upload para o PyPi. | 2023-07-11 |
-| Modificações para estruturação do empacotamento. | 2023-07-10 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-20 |
-| Implementação dos elementos gráficos no relatório em... | 2023-06-20 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-15 |
-| Inclusão de Graficos e Nuvem de palavras | 2023-06-15 |
-| Teste 3 de commit gerando evento para... | 2023-06-15 |
-| Teste 2 de commit gerando evento para... | 2023-06-15 |
-| Teste de commit gerando evento para criar... | 2023-06-15 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-15 |
-| Ajuste do Path dos arquivos que configuram... | 2023-06-15 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-PyAnalyticsGit | 2023-06-15 |
-| Remoção de arquivos temporários e automação dos... | 2023-06-15 |
-| Terceiro teste de automação do biblioteca. A... | 2023-06-15 |
-| Segundo teste de automação da biblioteca | 2023-06-14 |
-| Teste de automação da biblioteca | 2023-06-14 |
-| Implementação do fluxo de automação da biblioteca... | 2023-06-14 |
-| Merge da branch testes para main. Foi... | 2023-06-13 |
-| Implementação de método que busca o caminho... | 2023-06-13 |
-| Implementação do método que verifica o arquivo... | 2023-06-13 |
-| Alteração no arquivo hooks e testes de... | 2023-06-01 |
-| Teste de automatização | 2023-06-01 |
-| Teste de integração | 2023-06-01 |
-| Criação da classe relatório que será a... | 2023-05-31 |
-| Criação da função que gera o caminho... | 2023-05-30 |
-| Implementação da função que autmoatiza commits | 2023-05-29 |
-| Teste | 2023-05-29 |
-| Criação da função que automatiza o relatório... | 2023-05-29 |
-| Implementaçao do pacote estrutura e classe para... | 2023-05-27 |
-| Atualização no relatório | 2023-05-09 |
-| Inserção de novo gráfico do histórico de... | 2023-05-09 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-09 |
-| Revert "Rename User_History (LEAN INCEPTION).md to HISTÓRIA_DE_USUARIO... | 2023-05-09 |
-| Inserção de novo gráfico do histórico de... | 2023-05-09 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-09 |
-| Inserção de novo gráfico do histórico de... | 2023-05-09 |
-| Inserção de novo gráfico do histórico de... | 2023-05-09 |
-| Atualização do título do head | 2023-05-09 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-09 |
-| Atualização do diretório | 2023-05-09 |
-| Atualização do diretório | 2023-05-09 |
-| Atualização do diretório do codigo fonte | 2023-05-09 |
-| Implementação inicial das funcionalidades da biblioteca com... | 2023-05-08 |
-| Deletando arquivo de teste da implementação | 2023-05-08 |
-| Inserção do grafico no arquivo markdown. | 2023-05-08 |
-| Implementação inicial do relatório com histórico dos... | 2023-05-08 |
-| Adicionando comando para salvar grafico no arquivo... | 2023-05-08 |
-| Inserção de gráfico do número de commits... | 2023-05-07 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-06 |
-| Merge branch 'main' of github.com:fga-eps-mds/2023.1-Biblioteca-Relatorios-Git | 2023-05-04 |
-| Alteração no arquivo index.html | 2023-05-04 |
-| Criação do Git Pages do projeto em... | 2023-05-03 |
+| Ajustes no Backlog | 2023-07-12 |
+| Update PostMortem.md | 2023-07-12 |
+| Ajustes e Atualização da Arquitetura | 2023-07-12 |
+| Ajustando e atualizando o Escopo | 2023-07-12 |
+| Ajustando o documento da Visão do Produto | 2023-07-12 |
+| Criação do gráfico de pizza e atualização... | 2023-06-19 |
+| Incremento nas classes Gráfico e Nuvem de... | 2023-06-14 |
+| Alteração da classe relatório, nuvem e grafico... | 2023-06-01 |
+| Alteração da classe relatorio, mudança de pasta... | 2023-06-01 |
+| Criação da classe Gráfico e da classe... | 2023-05-31 |
+| Delete Criação do arquivo imagens | 2023-05-09 |
+| Add files via upload | 2023-05-09 |
+| Create Arquivo imagens | 2023-05-09 |
+| Delete Personas.png | 2023-05-09 |
+| Delete Jornadas dos Usuários.png | 2023-05-09 |
+| Delete Requisitos e Arquitetura.png | 2023-05-09 |
+| Delete User_Story.png | 2023-05-09 |
+| Delete Épicos.png | 2023-05-09 |
+| imagens | 2023-05-09 |
+| Update VISAO_DO_PRODUTO.md | 2023-05-08 |
+| Create REQUISITOS.MD | 2023-05-06 |
+| Update VISAO_DO_PRODUTO.md | 2023-05-06 |
+| Update VISAO_DO_PRODUTO.md | 2023-05-01 |
+| Rename Visão do produto.md to VISAO_DO_PRODUTO.md | 2023-04-28 |
+| Create Visão do produto.md | 2023-04-28 |
+| Rename Contribuindo.md to CONTRIBUINDO.md | 2023-04-27 |
+| Create Contribuindo.md | 2023-04-27 |
 
-## Mateus Levy
+# Tabela de Commits por Autor
+
+## gabrie1barbosa
+
+| Commit | Data |
+| --- | --- |
+| Adicionando docstrings | 2023-07-12 |
+| adicionando histórico de versão e atualizando backlog | 2023-07-10 |
+| estrutura do relatório técnico | 2023-07-10 |
+| post mortem v1 | 2023-07-09 |
+| ferramentas utilizadas | 2023-07-08 |
+| Adicionando o backlog | 2023-07-08 |
+| Rename User_History (LEAN INCEPTION).md to HISTÓRIA_DE_USUARIO (LEAN... | 2023-05-09 |
+| Create JORNADA_DOS_USUARIOS(LEAN INCEPTION).md.md | 2023-05-09 |
+| Create User_History (LEAN INCEPTION).md | 2023-05-09 |
+| Rename Escopo.md to ESCOPO.md | 2023-05-09 |
+| Update REQUISITOS.MD | 2023-05-08 |
+| Create Escopo.md | 2023-05-08 |
+| Update REQUISITOS.MD | 2023-05-06 |
+| Update SECURITY.md | 2023-05-02 |
+| Update SECURITY.md | 2023-05-02 |
+| Create SECURITY.md | 2023-05-02 |
+
+# Tabela de Commits por Autor
+
+## mateus9levy
 
 | Commit | Data |
 | --- | --- |
@@ -231,32 +265,13 @@
 | adicionando Api git | 2023-05-18 |
 | Update README.md | 2023-05-09 |
 
-## Gabriel
+# Tabela de Commits por Autor
 
-| Commit | Data |
-| --- | --- |
-| adicionando histórico de versão e atualizando backlog | 2023-07-10 |
-| estrutura do relatório técnico | 2023-07-10 |
-| post mortem v1 | 2023-07-09 |
-| ferramentas utilizadas | 2023-07-08 |
-| Adicionando o backlog | 2023-07-08 |
-| Rename User_History (LEAN INCEPTION).md to HISTÓRIA_DE_USUARIO (LEAN... | 2023-05-09 |
-| Create JORNADA_DOS_USUARIOS(LEAN INCEPTION).md.md | 2023-05-09 |
-| Create User_History (LEAN INCEPTION).md | 2023-05-09 |
-| Rename Escopo.md to ESCOPO.md | 2023-05-09 |
-| Update REQUISITOS.MD | 2023-05-08 |
-| Create Escopo.md | 2023-05-08 |
-| Update REQUISITOS.MD | 2023-05-06 |
-| Update SECURITY.md | 2023-05-02 |
-| Update SECURITY.md | 2023-05-02 |
-| Create SECURITY.md | 2023-05-02 |
-
-## Carla Rocha
+## RochaCarla
 
 | Commit | Data |
 | --- | --- |
 | Initial commit | 2023-03-30 |
-
 
 
 ## Nuvem de Palavras dos Commits
@@ -344,7 +359,7 @@
 | Título | Número | Estado | Tags |
 | --- | --- | --- | --- |
 | Criação e ajuste de gráficos e tabelas | 42 | closed | enhancement, important, Backend |
-| Revisão e ajustes finais dos documentos | 41 | open | documentation, Tarefas |
+| Revisão e ajustes finais dos documentos | 41 | closed | documentation, Tarefas |
 | Criação das classes dos gráficos e tabelas | 26 | closed | important, Backend |
 | Estudo/Treinamento - Python  | 7 | closed | Studying, Training |
 | Planilha de Conhecimentos | 5 | closed | Documento/Planilha |
@@ -404,4 +419,12 @@
 | Sprint 12 | 1 | Criação e ajuste de gráficos e tabelas |
 | Sprint 13 | 4 | Alterações nos módulos da biblioteca, Implementação do empacotamento e Pipeline, Criação do relatório em pasta docs, Relatório gerado a partir do método(sem automação) |
 | Sprint 14 | 8 | Tratar status code 403, Criação do documento de release e documento guia, Documentação da biblioteca, Lançamento da biblioteca pyanalyticsgit versão 0.0.1 no PyPI, Revisão e ajustes finais dos documentos, Correção de erros da biblioteca no PyPI, Corrigir erros nas variáveis de ambiente, Empacotamento e distribuição da biblioteca no testPyPI |
+
+## Gráfico de Tags por Milestones
+
+<div align='center'>
+
+![Gráfico de Tags por Milestones](grafico_miles_tag.png)
+
+</div>
 

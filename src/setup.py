@@ -5,7 +5,7 @@ with open("README.md", "r") as arq:
     readme = arq.read()
 
 setup(name='pyanalyticsgit',
-    version='0.0.5',
+    version='0.0.6',
     license='MIT License',
     author='Gabriel Barbosa, Jefferson Sena, Mateus Levy, Pedro Henrique, Rodrigo Fonseca, Tiago Albuquerque',
     long_description=readme,
